@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.logo-box {
+  @apply bg-gradient-to-r from-sky-700 to-sky-500 shadow-neutral-950/60 shadow-xl text-white p-3 rounded-xl;
+}
+.main-container {
+  @apply min-h-screen bg-linear-to-br from-indigo-900 to-sky-500 flex flex-col items-center justify-center p-4;
+}
+.back-to-home-link {
+  @apply flex items-center gap-2 text-sky-50 hover:text-sky-300 transition-colors;
+}

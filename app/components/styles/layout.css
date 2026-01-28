@@ -1,0 +1,179 @@
+.icon {
+  width: 28px;
+  transition: color 0.2s ease-out;
+}
+.icon:hover {
+  color: var(--color-amber-400);
+  cursor: pointer;
+}
+.icon.hover-none:hover {
+  color: inherit;
+}
+.header {
+  z-index: 550;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  transition: left;
+  background-color: var(--color-sky-500);
+  width: 100vw;
+  border-bottom: 1px solid #fafafa;
+}
+.sidebar {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  height: 100vh;
+  z-index: 500;
+  left: -100%;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  padding-top: 70px;
+  background-color: var(--color-sky-700);
+  border-right: 1px solid #fafafa;
+  top: 0;
+}
+.sidebar.open {
+  left: 0;
+}
+/* .sidebar-list {
+} */
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 60px;
+  transition: padding font-size color gap border;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  gap: 70px;
+  opacity: 0.9;
+}
+.sidebar-option-active {
+  opacity: 1;
+  background-color: var(--color-sky-800);
+  padding: 20px 20px;
+  font-size: 1.3rem;
+  gap: 20px;
+  color: var(--color-amber-400);
+  border-block: 1px solid var(--color-amber-400);
+}
+.game-card {
+  border: 1px solid var(--color-stone-600);
+}
+
+.game-card-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.add-to-cart-btn {
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+}
+.sidebar-option:hover {
+  color: var(--color-amber-300);
+  cursor: pointer;
+}
+.game-card {
+  animation-name: appear;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  background: var(--color-sky-700);
+  box-shadow: 0 5px 20px #000;
+  border: 1px solid var(--color-neutral-300);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.game-card-info {
+  border-top: 1px solid var(--color-neutral-300);
+  display: flex;
+  justify-content: space-between;
+}
+.platformTag {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  align-items: center;
+  padding-block: 6px;
+  border-bottom: 1px solid var(--color-neutral-300);
+}
+.xboxTag {
+  background-color: #107c10;
+}
+.ps4Tag {
+  background-color: #003087;
+}
+.ps5Tag {
+  background-color: #fff;
+  color: black;
+}
+.nintendoTag {
+  background-color: #e70009;
+}
+.steamTag {
+  background-color: #000;
+}
+.card-image {
+  transition: scale 0.3s ease-in-out;
+}
+.game-card:hover .card-image {
+  scale: 1.1;
+  filter: brightness(0.8);
+}
+.add-to-cart-event {
+  animation-name: add-to-cart-animation;
+}
+.remove-from-cart-event {
+  animation-name: remove-from-cart-animation;
+}
+.add-to-cart-event,
+.remove-from-cart-event {
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@media (max-width: 380px) {
+  .sidebar.open {
+    min-width: 100vw;
+  }
+}
+@keyframes add-to-cart-animation {
+  0% {
+    background-color: #fff0;
+  }
+  50% {
+    background-color: var(--color-purple-700);
+  }
+  100% {
+    background-color: #fff0;
+  }
+}
+@keyframes remove-from-cart-animation {
+  0% {
+    background-color: #fff0;
+  }
+  50% {
+    background-color: var(--color-red-700);
+  }
+  100% {
+    background-color: #fff0;
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

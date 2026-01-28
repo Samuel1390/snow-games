@@ -1,0 +1,23 @@
+.game-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+.game-bg-slayer {
+  padding: 100px;
+  width: 100%;
+  height: 100%;
+  background-color: #000a;
+}
+@media (max-width: 790px) {
+  .game-bg-slayer {
+    padding: 80px;
+  }
+}
+@media (max-width: 640px) {
+  .game-bg-slayer {
+    padding: 40px;
+  }
+}

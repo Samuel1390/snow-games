@@ -1,0 +1,1902 @@
+[
+    {
+        "name": "K-pop Idol Stories: Road to Debut",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.23738.14198082445803279.ec5d0609-ce8a-469c-8fd2-2c3d2426b49f.fac87f71-8060-468a-a293-5d3a78735287",
+        "href": "https://www.xbox.com/en-us/games/store/k-pop-idol-stories-road-to-debut/9PFLSH44SJZ2",
+        "uuid": "9PFLSH44SJZ2",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kaichu: The Kaiju Dating Sim",
+        "type": "game",
+        "price": "$9.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.4563.13880058218333833.1cc94f92-27fa-4db6-947d-2d9907757203.c0d75485-65d3-41d9-aeb8-15883c876227",
+        "href": "https://www.xbox.com/en-us/games/store/kaichu-the-kaiju-dating-sim/9MZ6X33K238L",
+        "uuid": "9MZ6X33K238L",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kaiju Wars",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.22195.13606727059141356.47c54325-1a67-4425-a155-05864c041db8.43abfe1d-3949-4b7a-af90-f6c23181d1a5",
+        "href": "https://www.xbox.com/en-us/games/store/kaiju-wars/9NF41QZPCGZP",
+        "uuid": "9NF41QZPCGZP",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kairosoft Starter",
+        "type": "game",
+        "price": "$23.49",
+        "image": "https://store-images.s-microsoft.com/image/apps.34770.14183008772353843.658fdbf7-dc60-472a-8867-90d144493ffb.cab6cac4-104f-423c-86be-58cbc61bcbe6",
+        "href": "https://www.xbox.com/en-us/games/store/kairosoft-starter/9PGLKX4MC87B",
+        "uuid": "9PGLKX4MC87B",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "KAKU - Ancient Seal",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.40418.14099581438173920.788f1864-5cd2-429d-adac-81beb063dca1.a8cd6a16-028a-439a-b06a-0a49cf8bbd4c",
+        "href": "https://www.xbox.com/en-us/games/store/kaku-ancient-seal/9P84DDMZLZ5Z",
+        "uuid": "9P84DDMZLZ5Z",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kamaeru: A Frog Refuge",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.52317.13619990393632060.dfb57c58-c4ac-4c3d-adac-9d49f35e869c.d6d0772d-4177-480d-b433-ab659fcc94f9",
+        "href": "https://www.xbox.com/en-us/games/store/kamaeru-a-frog-refuge/9NJ0NC3VVJJC",
+        "uuid": "9NJ0NC3VVJJC",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Kameo",
+        "type": "game",
+        "price": "$9.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.6864.71331020072920166.7e86d9ef-4edb-4eef-a0c8-86f5c9475e2f.53495cd6-6d72-4ef6-8879-874a14ef59d1",
+        "href": "https://www.xbox.com/en-us/games/store/kameo/BV83SM3191S5",
+        "uuid": "BV83SM3191S5",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kameo",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.51402.68217578810932850.d232e670-e28b-4aa4-8b23-1a68089676d4.a8a02d0b-e678-471f-9d1d-3e7f67f43bf5",
+        "href": "https://www.xbox.com/en-us/games/store/kameo/BPVP56VRVLZ7",
+        "uuid": "BPVP56VRVLZ7",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kamikaze Lassplanes",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.64033.13529323264220196.33fda626-7388-4a47-a051-6bdfd773a295.7069653a-ee11-460d-ac66-db3a6431fe45",
+        "href": "https://www.xbox.com/en-us/games/store/kamikaze-lassplanes/9N9NBL49PS43",
+        "uuid": "9N9NBL49PS43",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kane & Lynch 2",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.40895.66090267447566515.61271af5-be33-40a5-a102-433643651bb0.d8fe6a52-0577-4c96-beaf-84007dc3a3fc",
+        "href": "https://www.xbox.com/en-us/games/store/kane-lynch-2/C3KNJV4PP1LD",
+        "uuid": "C3KNJV4PP1LD",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kanjozoku Game & Buried Alive",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.676.14006388684520925.bfd7b6cb-669a-4596-8bd9-51e34807f3b4.19377376-f611-4baa-a238-f412c03c7d23",
+        "href": "https://www.xbox.com/en-us/games/store/kanjozoku-game-buried-alive/9N73WQSQS0KX",
+        "uuid": "9N73WQSQS0KX",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kanjozoku Game & Mudness Offroad & Buried Alive",
+        "type": "game",
+        "price": "$28.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.23238.14032812801234047.7cec2f1f-9942-42a3-bfd0-72d1349788ed.51939702-1c8e-4a41-a8e6-71747e09d743",
+        "href": "https://www.xbox.com/en-us/games/store/kanjozoku-game-mudness-offroad-buried-alive/9N5R3QXKJZ96",
+        "uuid": "9N5R3QXKJZ96",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kanjozoku Game - レーサーCar Racing & Highway Driving Simulator Games",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.5285.14433706522442007.9b65340a-6ab0-47f8-a8a3-a400540adde1.cf6b59c4-63d2-468a-876d-9d61e7713013",
+        "href": "https://www.xbox.com/en-us/games/store/kanjozoku-game-car-racing-highway-driving-simulator-games/9NX9H4RKS43Q",
+        "uuid": "9NX9H4RKS43Q",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Kao the Kangaroo",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.19118.14550840516243157.2925768c-6be9-4262-bfb2-eb396cba64cc.52e70846-bb40-4e5f-8572-fffbd8113b05",
+        "href": "https://www.xbox.com/en-us/games/store/kao-the-kangaroo/9P2V402QXH62",
+        "uuid": "9P2V402QXH62",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "KARMA : The Dark World - Deliver Us The Moon",
+        "type": "game",
+        "price": "$34.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.4617.14018785852983343.a84c8e20-9928-41ee-9ca1-4ce05bc5445c.1a89df8c-17ee-417f-a80f-2c931ecb01f8",
+        "href": "https://www.xbox.com/en-us/games/store/karma-the-dark-world-deliver-us-the-moon/9N6GFLNG4J6N",
+        "uuid": "9N6GFLNG4J6N",
+        "platforms": [
+            "PC",
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Karma City Police",
+        "type": "game",
+        "price": "$11.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.56171.13833923149461961.2d46e339-cd2b-43e7-a062-5997d4b31bb1.9d718aef-2892-479a-aa5c-32d9b178294c",
+        "href": "https://www.xbox.com/en-us/games/store/karma-city-police/9MWRMWNRDQ4G",
+        "uuid": "9MWRMWNRDQ4G",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KARMA: The Dark World",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.4195.14116529162025759.7b2fe861-72ed-4bba-9bad-225f8d31f28b.d1e61658-b963-4d6d-8f5a-397d7ef8c965",
+        "href": "https://www.xbox.com/en-us/games/store/karma-the-dark-world/9PBTRH54WM9Q",
+        "uuid": "9PBTRH54WM9Q",
+        "platforms": [
+            "PC",
+            "Xbox Series X|S",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "KARMA: The Dark World - Digital",
+        "type": "game",
+        "price": "$27.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.4941.13826091878448726.bff567f3-400b-44e2-835e-a0fc242341c9.4d152770-310b-4015-a596-6621c31963f6",
+        "href": "https://www.xbox.com/en-us/games/store/karma-the-dark-world-digital/9MSSLW12PFSP",
+        "uuid": "9MSSLW12PFSP",
+        "platforms": [
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "KartRider: Drift",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.94.69575354529436354.9dfb6646-2549-4cc9-9227-38b166655993.a29b26ce-30bc-4c5e-ac9e-b1788a9046b0",
+        "href": "https://www.xbox.com/en-us/games/store/kartrider-drift/BR8K0RVDQJS5",
+        "uuid": "BR8K0RVDQJS5",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Katamari Damacy REROLL",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.50101.14196637029317475.4897efb5-0a1d-4262-9ddc-38d688e82593.08d0d626-60e1-4648-9889-d3082b5055be",
+        "href": "https://www.xbox.com/en-us/games/store/katamari-damacy-reroll/9PFWPNP19F1B",
+        "uuid": "9PFWPNP19F1B",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Katana Kata",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.62740.13599382028920585.405ddbcf-19a2-4e4d-a9da-d0f239899c15.681c22b1-fcae-4f65-b69c-7e11e93618c4",
+        "href": "https://www.xbox.com/en-us/games/store/katana-kata/9NF7Z70ZSZW0",
+        "uuid": "9NF7Z70ZSZW0",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Katana ZERO",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.49293.14491865226006965.067ae062-d843-41dc-a177-a15f095c56ed.7bbb0b78-8b33-4716-b6b6-79f24046fe49",
+        "href": "https://www.xbox.com/en-us/games/store/katana-zero/9NXP19FZ7DZ4",
+        "uuid": "9NXP19FZ7DZ4",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kawaii Girls Panic",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.6622.13767394607568996.396da54c-80c4-48cc-b9ce-f0754e91dea5.6e7137cf-8ce8-4ec2-a749-89904c856e78",
+        "href": "https://www.xbox.com/en-us/games/store/kawaii-girls-panic/9NQL9K53ZN6R",
+        "uuid": "9NQL9K53ZN6R",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kaze and the Wild Masks",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.60817.14100916894253934.f6c9c4b5-94a7-4369-a67a-c15376e6c09f.4223fdee-2714-43cc-a8b8-47270fdf9522",
+        "href": "https://www.xbox.com/en-us/games/store/kaze-and-the-wild-masks/9P7TK3GJVH57",
+        "uuid": "9P7TK3GJVH57",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Keep Talking and Nobody Explodes",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.33629.14375974149324937.a7b7d79a-6907-44c2-8aeb-cf40e6d0f575.d551a694-c234-40d5-9103-0d4573717ad4",
+        "href": "https://www.xbox.com/en-us/games/store/keep-talking-and-nobody-explodes/9NS2PTV2WZGG",
+        "uuid": "9NS2PTV2WZGG",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Keeper",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.39734.13566978592979529.8c034f7f-7f73-4897-9410-31e1512536ea.b02e8dab-1b34-462a-be12-d50a87f2251d",
+        "href": "https://www.xbox.com/en-us/games/store/keeper/9NCJWHHMVHR0",
+        "uuid": "9NCJWHHMVHR0",
+        "platforms": [
+            "PC",
+            "Xbox Series X|S",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Keeper's Toll",
+        "type": "game",
+        "price": "$6.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.7162.13891073462674333.5b3e7078-6455-43e0-9fe0-07f1e4514997.e74d9307-ef9f-4238-9c2f-8ea9d8cc1ae0",
+        "href": "https://www.xbox.com/en-us/games/store/keeper-s-toll/9MXFGTP6P29D",
+        "uuid": "9MXFGTP6P29D",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KEMCO RPG Selection Vol. 1",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.50742.14566478140788736.92be634f-aec5-44e5-afa2-b4bc5f10fe43.f09361f9-cdb4-4ca3-8755-1a7b68df6366",
+        "href": "https://www.xbox.com/en-us/games/store/kemco-rpg-selection-vol-1/9P5MFG9SBG9K",
+        "uuid": "9P5MFG9SBG9K",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KEMCO RPG Selection Vol. 2",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.44836.13687713642591724.1d680d51-b3c5-4a90-a231-f6133ec0e543.f3e50a59-1aca-43ee-9913-6f3f67f12c6f",
+        "href": "https://www.xbox.com/en-us/games/store/kemco-rpg-selection-vol-2/9NMHK7T44J8W",
+        "uuid": "9NMHK7T44J8W",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KEMCO RPG Selection Vol. 3",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.39909.13517430059469644.c6554722-a9c0-4e89-b7af-bc868db8caa1.3cb99e81-a66d-4682-bff1-271d2a3f18a9",
+        "href": "https://www.xbox.com/en-us/games/store/kemco-rpg-selection-vol-3/9NBH3ZV0J3QC",
+        "uuid": "9NBH3ZV0J3QC",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KEMCO RPG Selection Vol. 4",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.12561.13625403108665293.0eb82050-4f84-4a52-a532-f302925f1741.57ff6b1e-b22b-4b5c-bb75-5e9e74e55e0e",
+        "href": "https://www.xbox.com/en-us/games/store/kemco-rpg-selection-vol-4/9NHJ2R55Z7TS",
+        "uuid": "9NHJ2R55Z7TS",
+        "platforms": [
+            "PC",
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KEMCO RPG Selection Vol. 5",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.52191.14443692016682121.5759a249-f830-47ca-9c62-f68301ef57c6.20f4cc9c-6373-478e-b2eb-126763382f0d",
+        "href": "https://www.xbox.com/en-us/games/store/kemco-rpg-selection-vol-5/9NWKLZT5R7VG",
+        "uuid": "9NWKLZT5R7VG",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KEMCO RPG Selection Vol. 6",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.9926.14611427090466739.ae8758df-b599-4236-a1fb-53462ac62322.88911fd1-40f2-4d91-bb58-168df1a17a43",
+        "href": "https://www.xbox.com/en-us/games/store/kemco-rpg-selection-vol-6/9P6WR6NC7DW2",
+        "uuid": "9P6WR6NC7DW2",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KEMCO RPG Selection Vol. 7",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.11092.13760898329527419.cdc429a2-a54c-4526-a5ff-1b620bd9ccee.f9cc78c4-8e6a-4cd6-b398-45eb6c5b7584",
+        "href": "https://www.xbox.com/en-us/games/store/kemco-rpg-selection-vol-7/9NR5744LJGWV",
+        "uuid": "9NR5744LJGWV",
+        "platforms": [
+            "PC",
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KEMCO RPG Selection Vol. 8",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.8876.13774858030758726.2875ab2d-7dd7-41ae-b1be-b462ba38ddfe.4cb2c613-1cb6-4504-b6c4-677c6951ee11",
+        "href": "https://www.xbox.com/en-us/games/store/kemco-rpg-selection-vol-8/9NQ799DS2LVZ",
+        "uuid": "9NQ799DS2LVZ",
+        "platforms": [
+            "PC",
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kena: Bridge of Spirits",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.58253.13615498624789457.8929f643-9b15-4676-a034-ae54b0487abb.a2bc1da0-9b9c-411a-b021-e9db7b2f2a9f",
+        "href": "https://www.xbox.com/en-us/games/store/kena-bridge-of-spirits/9NDNM3HX77R0",
+        "uuid": "9NDNM3HX77R0",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kentucky Route Zero: TV",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.46375.14620558670939884.b282563f-ef8a-4a4d-8cd6-6780477a8cf6.b2d48b3e-ee0f-4bb6-8372-aa852f014f97",
+        "href": "https://www.xbox.com/en-us/games/store/kentucky-route-zero-tv/9P6FTM76L1S7",
+        "uuid": "9P6FTM76L1S7",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kentum",
+        "type": "game",
+        "price": "$17.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.52200.14276834160095120.6ec14c79-236e-4b72-b82f-43ef9237ab45.a5ff3317-7883-4a35-94d5-51dc5b559d89",
+        "href": "https://www.xbox.com/en-us/games/store/kentum/9PJRPBNVJWNM",
+        "uuid": "9PJRPBNVJWNM",
+        "platforms": [
+            "Xbox Series X|S",
+            "PC",
+            "Handheld"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kerbal Space Program Enhanced",
+        "type": "game",
+        "price": "$59.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.61485.13629212517267479.12ca2729-fd93-40ce-9e88-cea9e80f22d4.9cf8b267-c844-409d-8271-7ee1260b8c95",
+        "href": "https://www.xbox.com/en-us/games/store/kerbal-space-program-enhanced/9NHJVGWGQTBJ",
+        "uuid": "9NHJVGWGQTBJ",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Kerbal Space Program Enhanced",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.16889.69605131994189608.186a980f-0738-4222-acd5-fb9c9ef32077.2ab8d713-a467-448b-978a-c7991188396f",
+        "href": "https://www.xbox.com/en-us/games/store/kerbal-space-program-enhanced/BRBD7BDK271P",
+        "uuid": "BRBD7BDK271P",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Keylocker",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.38592.13847841958187786.6a1c6dc8-7156-4829-8043-acca39fbdd0b.b6e0e494-c245-4f4c-9928-8c6209258653",
+        "href": "https://www.xbox.com/en-us/games/store/keylocker/9MW8T50Z9J3C",
+        "uuid": "9MW8T50Z9J3C",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Keypybara ( Series)",
+        "type": "game",
+        "price": "$4.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.14955.13875673582015898.7321d1d3-dbc5-46a2-86b9-56d25bde0c76.0e97762a-88fb-4e11-a0e5-f19101c8cdea",
+        "href": "https://www.xbox.com/en-us/games/store/keypybara-series/9MZFN3B642WC",
+        "uuid": "9MZFN3B642WC",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "KeyWe",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.21062.13861799223982773.7090fbb0-1020-489d-b852-1f9024bcc456.1c56eef9-091a-45ec-848b-ccf3fa70bc31",
+        "href": "https://www.xbox.com/en-us/games/store/keywe/9MVKZJ414SZX",
+        "uuid": "9MVKZJ414SZX",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Kholat",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.34774.69522124860892078.599bef1e-dbf5-4ed5-bea5-85fee26650b9.17462273-f327-4108-b68d-45e72efd036b",
+        "href": "https://www.xbox.com/en-us/games/store/kholat/BS2P4JMZNPVT",
+        "uuid": "BS2P4JMZNPVT",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KIBORG",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.15724.14019020280751797.1438e0e9-0c29-4439-b358-dbdb6ab45d79.4263a0b0-2916-4af7-97a6-790a8e0229a2",
+        "href": "https://www.xbox.com/en-us/games/store/kiborg/9N6GLJSQBNZD",
+        "uuid": "9N6GLJSQBNZD",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kill It With Fire",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.16880.13862857064512538.2709e225-b83d-480b-aeaf-58a54a6a45bb.75c585aa-5612-4aa0-98d5-03ff00faf437",
+        "href": "https://www.xbox.com/en-us/games/store/kill-it-with-fire/9MZVSHQZ666K",
+        "uuid": "9MZVSHQZ666K",
+        "platforms": [
+            "PC",
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "KILL IT WITH FIRE! 2",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.41825.13889690924508162.9345444b-8806-473d-9690-5adb9e55317b.a965deca-1172-4bb0-8704-730bdf29a09a",
+        "href": "https://www.xbox.com/en-us/games/store/kill-it-with-fire-2/9MXHL3TT792F",
+        "uuid": "9MXHL3TT792F",
+        "platforms": [
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kill It With Fire: Exterminator",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.3442.14567336960453181.9d1f44fa-3220-4cb7-8371-331c35c106bb.d4eb6e4e-10ae-4aac-9216-265d01198404",
+        "href": "https://www.xbox.com/en-us/games/store/kill-it-with-fire-exterminator/9P5L7BGTTW7N",
+        "uuid": "9P5L7BGTTW7N",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "KILL KNIGHT",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.7661.13759861295417217.01a4fec1-57b7-4188-9013-81a2eb92960b.305fef1f-b179-4d47-8aff-54635b8579c6",
+        "href": "https://www.xbox.com/en-us/games/store/kill-knight/9NR6CZSLBV7X",
+        "uuid": "9NR6CZSLBV7X",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kill The Brickman",
+        "type": "game",
+        "price": "$4.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.55954.14568167730648150.f1e82914-b3aa-4be9-87b3-0f9987bddf17.18c899d8-dbfd-4c0f-83f6-2e2879c95726",
+        "href": "https://www.xbox.com/en-us/games/store/kill-the-brickman/9P5JZ9KRVHWC",
+        "uuid": "9P5JZ9KRVHWC",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Killer Frequency",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.45157.13809628771831390.2a2afbac-b625-4651-bedf-8e3bbb751bbb.6801f993-1753-4ee6-ac29-f552cb262358",
+        "href": "https://www.xbox.com/en-us/games/store/killer-frequency/9MTMSS84NW5R",
+        "uuid": "9MTMSS84NW5R",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Killer Instinct",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.6529.67733837444376328.87da446a-fc20-41f5-816c-0d6a3904ad29.47cccd2e-05b7-4108-9c00-3a3236bcb025",
+        "href": "https://www.xbox.com/en-us/games/store/killer-instinct/BP4S3XLJG78M",
+        "uuid": "BP4S3XLJG78M",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Killer Instinct",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.26502.63528887622500676.fdc76197-5251-4a9e-9ec7-94e0c39fc502.b44dcbfe-2f37-45f9-937c-9a28c6f4463c",
+        "href": "https://www.xbox.com/en-us/games/store/killer-instinct/BX8FPDDRCLWT",
+        "uuid": "BX8FPDDRCLWT",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killer Instinct",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.6529.13510798886190122.78bc5ab2-a442-46db-98f1-bbbf1d0f087e.278f2daf-d0af-4919-8de5-55b90c6c221b",
+        "href": "https://www.xbox.com/en-us/games/store/killer-instinct/9NBLGGH1Z149",
+        "uuid": "9NBLGGH1Z149",
+        "platforms": [
+            "PC",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Killer Instinct 2",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.4956.65463263160410826.32af279f-0076-458e-ba46-c16a05825701.cb2aa2ca-d4f5-49a0-aade-907a73844feb",
+        "href": "https://www.xbox.com/en-us/games/store/killer-instinct-2/C2HDBXXNXT7R",
+        "uuid": "C2HDBXXNXT7R",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killer Instinct: Anniversary",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.6529.13952178927417910.ff893240-27f8-4a82-baab-c24dbb3d822c.5f95e0b7-f136-4a83-b71c-879c4ddcabad",
+        "href": "https://www.xbox.com/en-us/games/store/killer-instinct-anniversary/9N2HB4MWG7HM",
+        "uuid": "9N2HB4MWG7HM",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KILLER IS DEAD",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.43817.68826627283221018.483f8d21-1347-41fd-982b-6dbba0d99e2d.68495c8a-db56-47cf-923f-62abce5367eb",
+        "href": "https://www.xbox.com/en-us/games/store/killer-is-dead/BQZW37W54ZZM",
+        "uuid": "BQZW37W54ZZM",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killer Klowns From Outer Space: Digital",
+        "type": "game",
+        "price": "$59.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.22595.14095031826179169.e92e5744-4067-4659-af57-9d3d3593e92d.6166f304-b5b4-4dfe-a621-fca9c5edb4be",
+        "href": "https://www.xbox.com/en-us/games/store/killer-klowns-from-outer-space-digital/9P8BV9BZD7TD",
+        "uuid": "9P8BV9BZD7TD",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killer Klowns From Outer Space: The Game",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.62997.14398907729629362.cdb4e5b7-2ca0-4338-9e6f-1baf9c50098d.980b1666-47d9-42fa-9f9d-01b2f63a79a8",
+        "href": "https://www.xbox.com/en-us/games/store/killer-klowns-from-outer-space-the-game/9NVHCV80ZZMH",
+        "uuid": "9NVHCV80ZZMH",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killing Floor 2",
+        "type": "game",
+        "price": "$59.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.63563.13878578914908955.253c8991-842c-4da0-b264-a7394f8e75c5.c672b818-a079-4c45-9742-78c0e8a95342",
+        "href": "https://www.xbox.com/en-us/games/store/killing-floor-2/9MZ9PFRP8N20",
+        "uuid": "9MZ9PFRP8N20",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killing Floor 2",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.25532.70222240565100850.b7bb7fed-111f-4c72-b8c3-85a647cdf303.3925a5a5-fd66-4d4d-b739-e68ff76ac9e1",
+        "href": "https://www.xbox.com/en-us/games/store/killing-floor-2/BSB132ZQVWZM",
+        "uuid": "BSB132ZQVWZM",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killing Floor 3",
+        "type": "game",
+        "price": "$59.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.34531.14094687295864008.6d92d6f9-5213-4ae8-967b-5ccfa362f728.b8328716-036a-4794-afc6-4eba2f838510",
+        "href": "https://www.xbox.com/en-us/games/store/killing-floor-3/9P8CD1ZPKGPT",
+        "uuid": "9P8CD1ZPKGPT",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killing Floor 3",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.9021.14195706336164156.45595f21-c8f9-4fe1-9eb2-5fe33ddc21bd.09b95b85-2630-4795-b9d6-3e3d6bf47610",
+        "href": "https://www.xbox.com/en-us/games/store/killing-floor-3/9PFZLCKHC1VM",
+        "uuid": "9PFZLCKHC1VM",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killing Floor 3 Elite Nightfall",
+        "type": "game",
+        "price": "$79.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.32510.13698464897242707.7573947b-2108-4f33-b39b-6c6f2d27e641.dd50871a-cfe3-43a8-9b58-cdb86b84e83c",
+        "href": "https://www.xbox.com/en-us/games/store/killing-floor-3-elite-nightfall/9NM5ZW2G1F1B",
+        "uuid": "9NM5ZW2G1F1B",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Killing Time: Resurrected",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.11208.14116023529329703.cdf0c92b-abe0-47d5-89cb-f3a1e4318432.f95b36f1-268f-42a9-990d-dbd13a98d7bf",
+        "href": "https://www.xbox.com/en-us/games/store/killing-time-resurrected/9PBVFGGXZV24",
+        "uuid": "9PBVFGGXZV24",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kinduo 2 - Frostbite",
+        "type": "game",
+        "price": "$4.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.892.13706388479906833.b311907a-6274-4990-9d38-5dee8b0c6ad5.fa1017c5-d8db-4d3b-b95d-883fc83e8ce5",
+        "href": "https://www.xbox.com/en-us/games/store/kinduo-2-frostbite/9NLK1PX7MTTD",
+        "uuid": "9NLK1PX7MTTD",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kinect Sports Rivals",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.17544.69709337064206981.da5845d2-9032-40f0-8ad7-e1576c0f8271.29abfe57-d68f-4c81-8353-d457fe68be8f",
+        "href": "https://www.xbox.com/en-us/games/store/kinect-sports-rivals/BRHSML8030ZN",
+        "uuid": "BRHSML8030ZN",
+        "platforms": [
+            "Xbox One"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "King Arthur: Knight's Tale",
+        "type": "game",
+        "price": "$44.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.10422.13707162186941946.30ceb381-1d5c-444a-ae31-7c960f510fd3.15b731b7-2ecd-4626-a714-940b18ab4c56",
+        "href": "https://www.xbox.com/en-us/games/store/king-arthur-knight-s-tale/9NLQ6HBNZC53",
+        "uuid": "9NLQ6HBNZC53",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "King Arthur: Legion IX",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.46588.14053955309487771.5b4ba39f-98de-48ca-ada3-df83e873d139.1cb32be1-c9a7-4e4b-806d-baa5b292ef3f",
+        "href": "https://www.xbox.com/en-us/games/store/king-arthur-legion-ix/9N81Z8JDNB1Q",
+        "uuid": "9N81Z8JDNB1Q",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "King Kong",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.41770.71957340853924373.94059fb7-9da8-49b0-9c17-c439da60a18c.fbefb771-18c8-4780-bfe4-00b5ef90a96d",
+        "href": "https://www.xbox.com/en-us/games/store/king-kong/BWBDGLJTDCKS",
+        "uuid": "BWBDGLJTDCKS",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "King of Meat",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.54606.14013627896193312.59a0c892-52bd-4335-83dc-0bd660286c66.9bd10565-7e87-4832-abe4-b16a81fc5210",
+        "href": "https://www.xbox.com/en-us/games/store/king-of-meat/9N6HL9DLVG8H",
+        "uuid": "9N6HL9DLVG8H",
+        "platforms": [
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "King of Meat",
+        "type": "game",
+        "price": "$49.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.50639.14409504688746242.32395255-9d1b-4a39-976d-8a2b31198553.9a5ade04-e8c3-4086-89d7-1c39d25ab1c5",
+        "href": "https://www.xbox.com/en-us/games/store/king-of-meat/9NTQ55CVH7RH",
+        "uuid": "9NTQ55CVH7RH",
+        "platforms": [
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "King of Meat",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.3170.14332257470543384.152c8d63-f5ad-4698-81c3-e2edce1ea228.815b8bcd-0168-4649-8e2e-8ff305513e1a",
+        "href": "https://www.xbox.com/en-us/games/store/king-of-meat/9PPB3ZRFG3R1",
+        "uuid": "9PPB3ZRFG3R1",
+        "platforms": [
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "King of Seas",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.47214.14303239620145528.04e5750d-747f-4fb6-b6d0-b3d61afdb4f4.6360a6e4-d9fb-43b6-85a7-1718d2959f5a",
+        "href": "https://www.xbox.com/en-us/games/store/king-of-seas/9PM0R43HPSS7",
+        "uuid": "9PM0R43HPSS7",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "King of the Arcade",
+        "type": "game",
+        "price": "$7.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.32233.13783221637780683.2d24fc86-fce1-49fe-b9c8-43e1ae375363.55b682cf-3798-45b4-9e97-8bb44fffc44a",
+        "href": "https://www.xbox.com/en-us/games/store/king-of-the-arcade/9NQ0RTGTTBWL",
+        "uuid": "9NQ0RTGTTBWL",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "King of the Faridun Supporter Pack",
+        "type": "game",
+        "price": "$99.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.45815.14570449328253865.f4e52c92-a112-41f1-9e68-99834faef435.e0ae809d-4fac-4bef-b846-5a1eb4acf6dc",
+        "href": "https://www.xbox.com/en-us/games/store/king-of-the-faridun-supporter-pack/9PPF2TGP3BP0",
+        "uuid": "9PPF2TGP3BP0",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "King of Tokyo",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.2591.13691613169791944.78e3a93e-556b-444f-97b9-78f5a7896027.21772191-1906-4fa2-ad76-690fd23fddcf",
+        "href": "https://www.xbox.com/en-us/games/store/king-of-tokyo/9NM9K9W1ZCJW",
+        "uuid": "9NM9K9W1ZCJW",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "King's Bounty II",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.3587.14433676622326754.f01a74c7-b209-4264-aa58-017099488453.9f0df296-17b3-4677-ab2f-d4ad10c65990",
+        "href": "https://www.xbox.com/en-us/games/store/king-s-bounty-ii/9NX9732PK1R7",
+        "uuid": "9NX9732PK1R7",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "King's Bounty II - Lord's",
+        "type": "game",
+        "price": "$44.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.19406.14312596621345880.ab76628a-177a-4362-890c-ecd25829e11f.f47b23ff-046d-4d31-82d9-bdda2e4da507",
+        "href": "https://www.xbox.com/en-us/games/store/king-s-bounty-ii-lord-s/9PLJH78L8D7Z",
+        "uuid": "9PLJH78L8D7Z",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "King's Quest",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.31405.69783044208405594.c0d6ec4e-4329-4612-9ab1-ae690e394670.9cabacfa-630f-470f-a11f-f1279f6463f1",
+        "href": "https://www.xbox.com/en-us/games/store/king-s-quest/BRMFLRV79C3H",
+        "uuid": "BRMFLRV79C3H",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "King's Quest : The",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.23908.67040529145279171.5fc71eba-6f8d-4e3e-97ef-c1ef58f86609.661ff772-2794-4527-a764-4b200872bb3e",
+        "href": "https://www.xbox.com/en-us/games/store/king-s-quest-the/C55WG3PP53MQ",
+        "uuid": "C55WG3PP53MQ",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdom Come: Deliverance",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.56098.67852277315147388.a5b06386-d486-4b97-b9a5-d5fde3c5895c.a4abd6a3-755f-40bc-8b5b-2534944d361a",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-come-deliverance/BNBWFH89FCF1",
+        "uuid": "BNBWFH89FCF1",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kingdom Come: Deliverance - Royal",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.11673.69163470958040887.ac07b798-77c0-4384-b8ae-89bb2b54db97.c552c58e-6757-45c3-9fae-6bd303caa7e8",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-come-deliverance-royal/BQJKD0DJ1Q8J",
+        "uuid": "BQJKD0DJ1Q8J",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kingdom Come: Deliverance II",
+        "type": "game",
+        "price": "$69.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.36586.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.ad2ade38-0cff-4753-ae4f-b9e8cdc428e2",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
+        "uuid": "9N4W31HSMVVD",
+        "platforms": [
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kingdom Come: Deliverance II - Royal",
+        "type": "game",
+        "price": "$89.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.5270.14118317796561317.2d339886-59d1-413f-90c1-e09f8d1a87e8.d272bcd5-6a4d-4d26-a688-4f933699eb67",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-come-deliverance-ii-royal/9PBHX1S4DGZ4",
+        "uuid": "9PBHX1S4DGZ4",
+        "platforms": [
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kingdom Come: Deliverance – Saga",
+        "type": "game",
+        "price": "$99.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.28360.14110204080643766.1529bb07-0ccb-42e3-988f-62112aad3d7b.d7ed0026-4a82-4ed6-b713-0a238ed1deea",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-come-deliverance-saga/9PBXN355JRTR",
+        "uuid": "9PBXN355JRTR",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kingdom Coronation",
+        "type": "game",
+        "price": "$49.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.18873.13761374601421226.403ca6ac-dbc1-4bca-a79f-72dc6338c97b.d3f0084c-e0c7-4342-8481-9d44e3bb85d0",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-coronation/9NR4HDGNDBTR",
+        "uuid": "9NR4HDGNDBTR",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdom Eighties",
+        "type": "game",
+        "price": "$11.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.44677.14276639340532911.ae2f7dcb-c2a2-4e3b-9bb7-39741b6e4481.0e845545-4796-4e01-bf41-dd9db0e608a4",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-eighties/9PJRKNNFDN08",
+        "uuid": "9PJRKNNFDN08",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "KINGDOM HEARTS - 1.5+2.5 ReMIX",
+        "type": "game",
+        "price": "$49.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.13073.13632199716185998.13299b88-5419-46be-b574-e039f0e17d14.4f541d82-d8ea-4640-873c-d1987c514cea",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-hearts-1-5-2-5-remix/9NHDF1Q6HGMH",
+        "uuid": "9NHDF1Q6HGMH",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "KINGDOM HEARTS 2.8 Final Chapter Prologue",
+        "type": "game",
+        "price": "$59.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.1160.13522090809526555.7ecdae69-8b63-406b-b33c-d10c74d550da.e2975b15-212d-41e2-9978-95731bf1ee9e",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-hearts-2-8-final-chapter-prologue/9NB80T1XC43B",
+        "uuid": "9NB80T1XC43B",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "KINGDOM HEARTS Melody of Memory (International)",
+        "type": "game",
+        "price": "$59.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.41976.13996632189236414.6b579efe-3833-4c8e-846c-120bf230abc5.d1b75981-54f5-4434-b6e5-93aad3a41eaa",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-hearts-melody-of-memory-international/9N3SDL8MWH6K",
+        "uuid": "9N3SDL8MWH6K",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "KINGDOM HEARTS Ⅲ",
+        "type": "game",
+        "price": "$59.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.27080.64731639180234187.ef9f08c7-a053-4657-a057-02cbb6029516.057415b5-77dc-462d-a246-4ecd339c3ce3",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-hearts-iii/C08MW8XHQN9G",
+        "uuid": "C08MW8XHQN9G",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdom Heritage",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.32222.13887975954895204.8843be4c-f986-4514-bc7d-70c4b9ec7029.e2a08f1e-2297-4ee6-b32d-d00f2b2694b4",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-heritage/9MXSWM4KWBCT",
+        "uuid": "9MXSWM4KWBCT",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdom Rush",
+        "type": "game",
+        "price": "$9.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.21508.14576301905573821.bc76c64b-3901-4a77-9bca-c920532ada73.223a2566-1f2b-4cf6-9616-0bc8ee89e400",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-rush/9P541N3KWMWD",
+        "uuid": "9P541N3KWMWD",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdom Rush Frontiers",
+        "type": "game",
+        "price": "$9.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.63678.14363618405653505.5df575ad-dd98-435a-a8f9-181904c1efc8.0e7deb65-75d8-482c-ac13-cb47a4d8e186",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-rush-frontiers/9NSPSNLV2XQL",
+        "uuid": "9NSPSNLV2XQL",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdom Rush Origins",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.14833.13642788861012497.a094599e-55e7-4d1b-a3e9-cf34f7631ea6.032fd2a0-fa58-4312-9b26-53b48c39f9c4",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-rush-origins/9NGM563V3MTN",
+        "uuid": "9NGM563V3MTN",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kingdom Two Crowns",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.6504.71673052342730938.755a1636-e311-4e76-b788-08cd89fc0781.07a7580e-cd2b-4f66-bb3c-3f9c4ecc5104",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-two-crowns/BWT2GPVWCH2F",
+        "uuid": "BWT2GPVWCH2F",
+        "platforms": [
+            "PC",
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdom Two Crowns: Essentials Pack",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.39207.14033007435017059.a1410b28-4cf2-42fd-8131-6fc895203a83.1914aec8-f9b9-4b69-bef5-6021896fe05c",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-two-crowns-essentials-pack/9N5R5WDJH4B0",
+        "uuid": "9N5R5WDJH4B0",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdom: New Lands",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.14419.66084178781808662.5cbdeec6-594f-44e2-ab1a-acbdbbe8e331.e80b2b86-fb7b-46d5-ada6-c4c261a6a2c9",
+        "href": "https://www.xbox.com/en-us/games/store/kingdom-new-lands/C3L6F8GL5LJK",
+        "uuid": "C3L6F8GL5LJK",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdoms and Castles",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.36451.14513796531784321.fb1e411b-701d-4129-9300-e7b7f072a372.046ecd64-1d0f-47f9-9875-5d314b3368c0",
+        "href": "https://www.xbox.com/en-us/games/store/kingdoms-and-castles/9P15B79HJ6GV",
+        "uuid": "9P15B79HJ6GV",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kingdoms of Amalur: Re-Reckoning",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.52520.14396872445173076.fe063380-71f4-4e5c-8364-1fceec65d95b.b2041618-dbfd-4884-b824-59521d0652dc",
+        "href": "https://www.xbox.com/en-us/games/store/kingdoms-of-amalur-re-reckoning/9NVCNM9DQ839",
+        "uuid": "9NVCNM9DQ839",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kingdoms of Amalur: Re-Reckoning FATE",
+        "type": "game",
+        "price": "$54.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.60449.13920429802778076.c7644182-8bb7-44aa-8b42-c9b423d72ea8.ac8a808a-7541-408e-87bd-e19a8ea42ab9",
+        "href": "https://www.xbox.com/en-us/games/store/kingdoms-of-amalur-re-reckoning-fate/9N0J1QQZQV83",
+        "uuid": "9N0J1QQZQV83",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kingdoms of Amalur: Reckoning",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.37460.64087071388179996.6e3a521c-d8aa-48a4-9614-a373586d0a5e.932563a4-1d47-4f43-8791-9b01a7076176",
+        "href": "https://www.xbox.com/en-us/games/store/kingdoms-of-amalur-reckoning/BZ78HXHCZD39",
+        "uuid": "BZ78HXHCZD39",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kinki Spiritual Affairs Bureau",
+        "type": "game",
+        "price": "$12.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.33597.13550616796976632.8e3bde31-dc0b-450b-9ac4-05fbfe00458a.334e0b6d-e8d6-4914-b69f-6c9bb80bb440",
+        "href": "https://www.xbox.com/en-us/games/store/kinki-spiritual-affairs-bureau/9ND5HJR0XTTF",
+        "uuid": "9ND5HJR0XTTF",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "KinnikuNeko: SUPER MUSCLE CAT",
+        "type": "game",
+        "price": "$17.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.9071.14505336511399806.440bac72-1772-43d0-a220-ad21ff362e48.466e6337-a139-4b38-81c0-41d38c5e71a0",
+        "href": "https://www.xbox.com/en-us/games/store/kinnikuneko-super-muscle-cat/9P1KQX1Z4Q1M",
+        "uuid": "9P1KQX1Z4Q1M",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kiosk",
+        "type": "game",
+        "price": "$3.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.65058.13932852116520653.f775d170-79ea-4bc7-8b4e-fa69696920ce.c3a94899-d73e-4fa7-bb11-be37e35b370e",
+        "href": "https://www.xbox.com/en-us/games/store/kiosk/9N03R8K2VPLB",
+        "uuid": "9N03R8K2VPLB",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kitaria Fables",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.15809.13717512858822682.f20cecfb-4641-42e9-a604-72d9e64b9d2d.dac83729-2c2f-4c4f-91c0-990c0a709cac",
+        "href": "https://www.xbox.com/en-us/games/store/kitaria-fables/9NKZNH426QT7",
+        "uuid": "9NKZNH426QT7",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kitten Island 2",
+        "type": "game",
+        "price": "$4.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.11885.14469848359448277.245a9b36-1af4-4697-b2ef-0454750c082c.79bb83f3-54fe-45b2-82b3-c8c3d75e912c",
+        "href": "https://www.xbox.com/en-us/games/store/kitten-island-2/9NZSJFM14H18",
+        "uuid": "9NZSJFM14H18",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kitten Island 2 ( Series)",
+        "type": "game",
+        "price": "$4.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.11885.13657188129615427.32faa8f6-654b-4e7b-9f4e-3c54696b9207.b0569af1-5b44-4a41-94bb-ba4658b6adfe",
+        "href": "https://www.xbox.com/en-us/games/store/kitten-island-2-series/9NKGRV1G93FV",
+        "uuid": "9NKGRV1G93FV",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kittens and Yarn",
+        "type": "game",
+        "price": "$2.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.48161.14522022404840744.afd75448-a179-43b4-beda-ca716e2cc98b.937392a8-bda0-4ccd-860b-257a7b372619",
+        "href": "https://www.xbox.com/en-us/games/store/kittens-and-yarn/9P0ZD22M5K6H",
+        "uuid": "9P0ZD22M5K6H",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Klabater : The Amazing American Circus, Moonshine Inc., Heliborne and Crossroads Inn",
+        "type": "game",
+        "price": "$79.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.2723.13675570499198499.46b29de3-c221-46b9-95ef-3155586a86b1.6a49f844-5652-4a64-b826-fbf7941f1685",
+        "href": "https://www.xbox.com/en-us/games/store/klabater-the-amazing-american-circus-moonshine-inc-heliborne-and-crossroads-inn/9NJJFW6T33WQ",
+        "uuid": "9NJJFW6T33WQ",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "KLONOA Phantasy Reverie Series",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.48565.14285411835787959.d16e93cb-bd53-4faf-9c56-39dec7013b4d.c787f624-6bc7-4c0c-bd6c-c95ce096d382",
+        "href": "https://www.xbox.com/en-us/games/store/klonoa-phantasy-reverie-series/9PMWDKRKH7GS",
+        "uuid": "9PMWDKRKH7GS",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Knight Squad",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.15159.69019489075777328.76d71961-e725-4f6e-829a-5850d4770b21.a2ce10e2-c336-4d19-b5b4-ab3116e6ed9c",
+        "href": "https://www.xbox.com/en-us/games/store/knight-squad/BQ9C40MT0WWK",
+        "uuid": "BQ9C40MT0WWK",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Knight Squad 2",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.4568.14043283618460869.37a53b15-6786-4c30-af59-8fa2b7581dba.31b32702-f9bc-4beb-99aa-ac6873e1e16d",
+        "href": "https://www.xbox.com/en-us/games/store/knight-squad-2/9N8KR1GM6V1X",
+        "uuid": "9N8KR1GM6V1X",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Knight vs Giant: The Broken Excalibur",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.34073.14269562917511497.88076403-aac2-4bba-af10-711cf02fa0c0.b6ee1773-bee1-4577-8f46-51f87a55f35c",
+        "href": "https://www.xbox.com/en-us/games/store/knight-vs-giant-the-broken-excalibur/9PKC29DP3MSV",
+        "uuid": "9PKC29DP3MSV",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Knight with Tactics",
+        "type": "game",
+        "price": "$1.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.34361.13802792998418248.a6ef6f3c-6e79-48e1-af75-ddc04ac9838d.89092347-dc94-4e55-afd3-18e129b9e481",
+        "href": "https://www.xbox.com/en-us/games/store/knight-with-tactics/9MTRF5L1L1QR",
+        "uuid": "9MTRF5L1L1QR",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Knight's Quest",
+        "type": "game",
+        "price": "$4.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.30999.14295786252500447.f24f87db-18fe-4bd9-86a5-f50fa64f5c46.e8574073-59b4-4469-962b-a73eb71f0d2f",
+        "href": "https://www.xbox.com/en-us/games/store/knight-s-quest/9N3JN3WZWCNM",
+        "uuid": "9N3JN3WZWCNM",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Knightica",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.19958.14615280708754116.ea7f8ce6-5533-4c98-b60f-086e662db06b.4cecc821-eb83-46df-8a7c-c0bdf541b8b7",
+        "href": "https://www.xbox.com/en-us/games/store/knightica/9P6PXKS1SQR9",
+        "uuid": "9P6PXKS1SQR9",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Knights and Bikes",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.24722.14631376149189004.de7c846f-fe64-4f51-81bc-3f1402a429e5.0c7abb48-e9b1-4bc2-8cd6-25df64ff1f8e",
+        "href": "https://www.xbox.com/en-us/games/store/knights-and-bikes/9P64KV1HQK07",
+        "uuid": "9P64KV1HQK07",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Knights of Braveland",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.38829.13815631544437030.fb66875c-8667-4e6c-bc63-4fcd1724527c.de8f2cdf-774d-4764-82ef-801ed6be85be",
+        "href": "https://www.xbox.com/en-us/games/store/knights-of-braveland/9MT4FDMPGXHH",
+        "uuid": "9MT4FDMPGXHH",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Knights of Grayfang",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.61349.13937375854174018.14e05563-d6bc-4c46-851e-0f714e92c779.d07a804c-016f-4049-9d2d-4382f3c197d3",
+        "href": "https://www.xbox.com/en-us/games/store/knights-of-grayfang/9N3GJKS8KC6F",
+        "uuid": "9N3GJKS8KC6F",
+        "platforms": [
+            "PC",
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Knock on the Coffin Lid",
+        "type": "game",
+        "price": "$34.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.43879.13978778908125358.75c586be-ef14-4436-9b7e-abbbf62dc94c.f94e870e-ffbe-4308-b3f2-cfefa028eeb3",
+        "href": "https://www.xbox.com/en-us/games/store/knock-on-the-coffin-lid/9N4PVQQ541CC",
+        "uuid": "9N4PVQQ541CC",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Knowledge, or know Lady",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.35256.13672925660493210.60a54d6e-7f02-4095-992c-7a7bad6290d8.132b3c1d-baf5-46c4-8c31-608b84365d1c",
+        "href": "https://www.xbox.com/en-us/games/store/knowledge-or-know-lady/9NJWJVTSP4LT",
+        "uuid": "9NJWJVTSP4LT",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KOF SKY STAGE",
+        "type": "game",
+        "price": "$9.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.62944.65787581711623022.7e782fc6-b928-4ad7-b301-7a4f11ed0388.27f3b35e-a0fc-4213-8daf-565a58f7944a",
+        "href": "https://www.xbox.com/en-us/games/store/kof-sky-stage/C228GX7BRJM7",
+        "uuid": "C228GX7BRJM7",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "KOF2002UM",
+        "type": "game",
+        "price": "$9.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.3346.70614396782829787.14c569b4-4d5e-4d95-93be-0a1b85f5b824.a3931b90-d6c4-4c2a-89cc-15b72b1c7958",
+        "href": "https://www.xbox.com/en-us/games/store/kof2002um/BTX1PSX2MBF6",
+        "uuid": "BTX1PSX2MBF6",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KOF98UM",
+        "type": "game",
+        "price": "$9.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.34795.64778072665897661.5dd96cdc-1f47-42a7-bb63-f2ed9da8c6c8.7a1a8ebb-17a4-44c6-93e9-d25088d74d30",
+        "href": "https://www.xbox.com/en-us/games/store/kof98um/C1D89J1G0NX2",
+        "uuid": "C1D89J1G0NX2",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Koh-Lanta",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.65436.13807496323961288.754db577-ed09-40c8-8ded-02e8378a35a2.6a85f82c-2b4a-4de3-910b-d4ba06629975",
+        "href": "https://www.xbox.com/en-us/games/store/koh-lanta/9MTJC6FZ0047",
+        "uuid": "9MTJC6FZ0047",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Kona",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.4251.63579060588016569.6eb380da-b190-4777-b70f-99fd2b3b8470.9ec46f8d-8378-42d9-8220-e35c6f72b39d",
+        "href": "https://www.xbox.com/en-us/games/store/kona/BXDSG249D6Q2",
+        "uuid": "BXDSG249D6Q2",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "XCloud"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kona II: Brume",
+        "type": "game",
+        "price": "$29.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.22484.13844667147142160.362497bb-868e-416f-b78d-359043e116a5.f3394ecc-d594-45ee-8f7b-d758d3d0abf3",
+        "href": "https://www.xbox.com/en-us/games/store/kona-ii-brume/9MWG18BH5ML7",
+        "uuid": "9MWG18BH5ML7",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kong: Survivor Instinct",
+        "type": "game",
+        "price": "$24.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.45162.13875559656716690.257dd98d-c782-4e98-81ef-02b78293ff04.32a3dc22-67df-4690-b20b-16cc2b97285d",
+        "href": "https://www.xbox.com/en-us/games/store/kong-survivor-instinct/9MZG9HFBWDSF",
+        "uuid": "9MZG9HFBWDSF",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Korgan",
+        "type": "game",
+        "price": "Unavailable",
+        "image": "https://store-images.s-microsoft.com/image/apps.25255.70110603074447323.b7a3e776-5182-4a29-a868-28a6e739f019.6687350c-023e-4ea0-82ba-551237c3ab0b",
+        "href": "https://www.xbox.com/en-us/games/store/korgan/BS4R9GLTJBRL",
+        "uuid": "BS4R9GLTJBRL",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Krampus Kills",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.15931.14307309435488158.52037a9e-f37c-4363-b8d2-fd1a419e9676.c577a166-493c-4883-8083-81889d131c1f",
+        "href": "https://www.xbox.com/en-us/games/store/krampus-kills/9PLSLJTGX8TC",
+        "uuid": "9PLSLJTGX8TC",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KreatureKind",
+        "type": "game",
+        "price": "$16.49",
+        "image": "https://store-images.s-microsoft.com/image/apps.25491.14466898321337445.dbf82704-21d9-44ed-b920-9584c5ba6667.f4502f66-4f19-4185-bed1-d0a3dc50e5ac",
+        "href": "https://www.xbox.com/en-us/games/store/kreaturekind/9NZZ1CZGLCZ0",
+        "uuid": "9NZZ1CZGLCZ0",
+        "platforms": [
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Krimson",
+        "type": "game",
+        "price": "$9.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.61463.14141454137534667.14a85134-3928-424b-bb0a-eacc31031bbb.6481f193-b017-4e67-b847-844df44459ba",
+        "href": "https://www.xbox.com/en-us/games/store/krimson/9P9BK0DGVGXX",
+        "uuid": "9P9BK0DGVGXX",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kulebra and the Souls of Limbo",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.34384.14193966455764021.2770c71f-6051-45a9-b765-9028dd955314.373f14e6-0a13-46c3-8661-e4db40577022",
+        "href": "https://www.xbox.com/en-us/games/store/kulebra-and-the-souls-of-limbo/9PFT2MJKJHWX",
+        "uuid": "9PFT2MJKJHWX",
+        "platforms": [
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "everyone"
+    },
+    {
+        "name": "Kung Fury: Street Rage",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.30577.13855758695260887.2fb0b065-e9f5-4917-8b5e-020e9ef64654.c754c0ef-a13d-491c-a311-8e54c10cb954",
+        "href": "https://www.xbox.com/en-us/games/store/kung-fury-street-rage/9MVNJ6HXNN5B",
+        "uuid": "9MVNJ6HXNN5B",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kung-Fu for Kinect",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.53517.70943897529201295.ba759173-21fe-4cbc-8d9c-718d37c3567c.83b930b5-7bd8-40ef-95dc-af4b3471a56c",
+        "href": "https://www.xbox.com/en-us/games/store/kung-fu-for-kinect/BVK1LRW59L64",
+        "uuid": "BVK1LRW59L64",
+        "platforms": [
+            "Xbox One"
+        ],
+        "rating": "everyone 10+"
+    },
+    {
+        "name": "Kunitsu-Gami: Path of the Goddess",
+        "type": "game",
+        "price": "$39.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.8182.14165819607364549.f3c32f2d-bd97-40ba-91aa-3c1d1d534464.52e6380b-5619-4296-88da-71cf426f9645",
+        "href": "https://www.xbox.com/en-us/games/store/kunitsu-gami-path-of-the-goddess/9PCWXX0MS15S",
+        "uuid": "9PCWXX0MS15S",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "Kuroi Tsubasa",
+        "type": "game",
+        "price": "$4.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.5236.13663862709983179.9ba0cc43-c7db-4313-a250-0f1ba4d34b86.147e7fc3-2057-489a-bd98-cc28dd0eef21",
+        "href": "https://www.xbox.com/en-us/games/store/kuroi-tsubasa/9NKCCB5FBL4D",
+        "uuid": "9NKCCB5FBL4D",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "teen"
+    },
+    {
+        "name": "KURSK",
+        "type": "game",
+        "price": "$19.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.55259.13763734460785831.331a3d3e-1ba9-4dd6-b6a1-ccac21935e10.b43a1457-d225-406e-b30b-135cb90355cc",
+        "href": "https://www.xbox.com/en-us/games/store/kursk/9NR0JHG31V5V",
+        "uuid": "9NR0JHG31V5V",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kuznetsk 1997: Detective Visual Novel",
+        "type": "game",
+        "price": "$14.99",
+        "image": "https://store-images.s-microsoft.com/image/apps.44982.14280095563874719.f8ea2e32-7d49-4bd0-b56d-b0d86fe1aad1.c5f66e77-6cac-41f9-810a-dc4e7d12495b",
+        "href": "https://www.xbox.com/en-us/games/store/kuznetsk-1997-detective-visual-novel/9PJTGTK447L0",
+        "uuid": "9PJTGTK447L0",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S",
+            "PC",
+            "XCloud",
+            "Handheld"
+        ],
+        "rating": "mature 17+"
+    },
+    {
+        "name": "Kvark",
+        "type": "game",
+        "price": "$19.49",
+        "image": "https://store-images.s-microsoft.com/image/apps.22709.13983133331568893.7c135a31-37eb-4903-bf8b-6fb070f06d27.b0a1ad8e-360b-4422-aa86-685cc61c5ce8",
+        "href": "https://www.xbox.com/en-us/games/store/kvark/9N4GVP3WFLG6",
+        "uuid": "9N4GVP3WFLG6",
+        "platforms": [
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "rating": "mature 17+"
+    }
+]
