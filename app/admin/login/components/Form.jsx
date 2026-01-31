@@ -32,10 +32,7 @@ function Form() {
     try {
       await new Promise((resolve) => setTimeout(resolve, 1500));
       console.log("Login attempt with:", formData);
-      // Aquí iría la lógica real de autenticación
-      // Por ejemplo, una llamada a una API
-      // Si es exitoso, redirigir al dashboard o página principal
-      router.push("/"); // Cambia la ruta según necesites
+      router.push("/");
     } catch (error) {
       console.error("Login error:", error);
       alert("Login failed. Please check your credentials.");

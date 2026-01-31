@@ -8,13 +8,15 @@ import {
   UserIcon,
   UserPlusIcon,
 } from "@heroicons/react/24/outline";
-import { MobileSearchbar } from "./Searchbar";
-import Searchbar from "./Searchbar";
+import { MobileSearchbar } from "./Controls";
+
+import Searchbar from "./Controls";
 import Sidebar from "./Sidebar";
 import "./styles/layout.css";
 import Link from "next/link";
 import { useContext } from "react";
 import FilterContext from "./context/filterContext";
+
 const Header = ({ displayControls = true, linkOptions }) => {
   const [cartAnimation, setCartAnimation] = useState("");
   useEffect(() => {
@@ -54,7 +56,7 @@ const Header = ({ displayControls = true, linkOptions }) => {
             >
               <ShoppingCartIcon className={`icon`} />
             </Link>
-            <AdminLinks className="hidden xsm:flex" />
+            <AdminLinks className="hidden gap-4 xsm:flex" />
           </div>
         </div>
       </header>

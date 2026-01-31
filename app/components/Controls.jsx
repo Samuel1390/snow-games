@@ -1,7 +1,10 @@
 import { useContext } from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/16/solid";
 import FilterContext from "./context/filterContext";
-
+import { FunnelIcon } from "@heroicons/react/24/outline";
+import { useState } from "react";
+import { Slider } from "@/components/ui/slider";
+import "./styles/slider.css";
 function Searchbar({ className = "", display = true }) {
   const { filter, setFilter } = useContext(FilterContext);
   const handleTextInput = (e) => {
@@ -48,6 +51,42 @@ export function MobileSearchbar({ displayControls }) {
         placeholder="Search Game"
         onChange={(e) => handleTextInput(e)}
       />
+    </div>
+  );
+}
+export function FilterControls() {
+  const { filter, setFilter } = useContext(FilterContext);
+  const { minPrice, maxPrice } = filter;
+  function handleInputRange(e) {
+    setFilter({ ...filter, minPrice: e[0], maxPrice: e[1] });
+  }
+  const min = 0;
+  const max = 200;
+  const initialMinValue = minPrice;
+  const initialMaxValue = maxPrice;
+  return (
+    <div className="w-full bg-sky-900 my-4 flex flex-col">
+      <div className="flex items-center p-2.5 gap-4 text-xl border-b border-amber-300 text-amber-300">
+        <FunnelIcon className="icon hover-none" />
+        <h2>Filters</h2>
+      </div>
+
+      <div className="w-[80%] mx-auto my-4">
+        <h3 className="text-amber-300 text-center m-2">
+          Price range: ${minPrice} - ${maxPrice}
+        </h3>
+        <div className="my-6">
+          <Slider
+            defaultValue={[initialMinValue, initialMaxValue]}
+            value={[minPrice, maxPrice]}
+            onValueChange={(e) => handleInputRange(e)}
+            max={max}
+            min={min}
+            step={1}
+            className="mx-auto w-full max-w-xs"
+          />
+        </div>
+      </div>
     </div>
   );
 }

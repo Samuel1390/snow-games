@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { XboxIcon, PsnIcon, NintendoIcon, SteamIcon } from "./Icons";
 import FilterContext from "./context/filterContext";
 import Link from "next/link";
+import { FilterControls } from "./Controls";
 import { AdminLinks } from "./Header";
 export const options = [
   { platform: "ps4", icon: <PsnIcon /> },
@@ -31,11 +32,12 @@ const Sidebar = ({ open, linkOptions }) => {
             );
           })}
         </ul>
-        <h2 className="pl-4 text-2xl text-amber-400 my-4 border-b border-amber-400">
+        <h2 className="pl-4 text-xl text-amber-400 my-4 border-b border-amber-400">
           You don&apos;t have an acount?
         </h2>
         <AdminLinks className="flex itemns-center w-fit mx-auto my-4 text-xl gap-4" />
       </nav>
+      <FilterControls />
     </aside>
   );
 };

@@ -1,20 +1,20 @@
 "use client";
 import getGames from "../hooks/useFetchGames";
 import FilterContext from "./filterContext";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import useFilters from "../hooks/useFilters";
-import { useParams } from "next/navigation";
+import useStates from "../hooks/useStates";
 
 function FilterProvider({ children }) {
-  const params = useParams();
-  const [games, setGames] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [pageRange, setPageRange] = useState({
-    from: 0,
-    to: 50,
-  });
-  const [platform, setPlatform] = useState("ps4");
-  const [letter, setLetter] = useState(params.letter ?? "a");
+  const {
+    setGames,
+    setIsLoading,
+    setLetter,
+    setPageRange,
+    setPlatform,
+    states,
+  } = useStates();
+  const { games, pageRange, platform, isLoading, letter } = states;
 
   useEffect(() => {
     const fetchGames = async () => {
@@ -29,7 +29,7 @@ function FilterProvider({ children }) {
       }
     };
     fetchGames();
-  }, [platform, letter]);
+  }, [platform, letter, setGames, setIsLoading]);
   const { filteredGames, setFilter, filter } = useFilters(games);
   return (
     <FilterContext.Provider

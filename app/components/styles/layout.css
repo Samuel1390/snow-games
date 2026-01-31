@@ -17,11 +17,16 @@
   justify-content: space-between;
   padding: 20px 30px;
   transition: left;
-  background-color: var(--color-sky-500);
+  background-image: linear-gradient(
+    to right,
+    var(--color-indigo-900),
+    var(--color-sky-800)
+  );
   width: 100vw;
   border-bottom: 1px solid #fafafa;
 }
 .sidebar {
+  overflow-y: auto;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -82,6 +87,7 @@
   cursor: pointer;
 }
 .game-card {
+  transition: background-color 0.2s ease-in-out;
   animation-name: appear;
   animation-duration: 0.3s;
   animation-timing-function: ease-in;
@@ -91,6 +97,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.game-card:hover .card-image {
+  scale: 1.1;
+  filter: brightness(0.8);
+}
+.game-card:hover {
+  background-color: var(--color-sky-800);
 }
 .game-card-info {
   border-top: 1px solid var(--color-neutral-300);
@@ -123,10 +136,6 @@
 }
 .card-image {
   transition: scale 0.3s ease-in-out;
-}
-.game-card:hover .card-image {
-  scale: 1.1;
-  filter: brightness(0.8);
 }
 .add-to-cart-event {
   animation-name: add-to-cart-animation;

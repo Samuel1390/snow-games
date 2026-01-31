@@ -24,11 +24,11 @@ const GameCard = ({ game, className = "", liClassName = "", platform }) => {
           />
         </picture>
         <div className="game-card-info">
-          <div>
-            <span className="font-bold">{platform.toUpperCase()}</span>
-          </div>
           <h2 className="text-xl">{name}</h2>
-          <h3>{type}</h3>
+          <div className="flex gap-2">
+            <span className="font-bold">{platform.toUpperCase()}</span>|
+            <h3>{type}</h3>
+          </div>
           <h2 className="font-bold text-emerald-400 text-2xl">{price}</h2>
         </div>
       </Link>
