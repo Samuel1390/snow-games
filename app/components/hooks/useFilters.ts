@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Game } from "./types";
 const useFilters = (games: Game[]) => {
   const [filter, setFilter] = useState({
-    minPrice: 0,
+    minPrice: 40,
     maxPrice: 200,
     text: "",
   });

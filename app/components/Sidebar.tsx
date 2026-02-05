@@ -7,6 +7,7 @@ import FilterContext from "./context/filterContext";
 import Link from "next/link";
 import { FilterControls } from "./Controls";
 import { AdminLinks } from "./Header";
+import AboutDev from "./AboutDev";
 export const options: Options[] = [
   { platform: "ps4", icon: <PsnIcon /> },
   { platform: "ps5", icon: <PsnIcon /> },
@@ -41,6 +42,7 @@ const Sidebar = ({ open, linkOptions }: Props) => {
             );
           })}
         </ul>
+        <AboutDev />
         <h2 className="pl-4 text-xl text-amber-400 my-4 border-b border-amber-400">
           You don&apos;t have an acount?
         </h2>

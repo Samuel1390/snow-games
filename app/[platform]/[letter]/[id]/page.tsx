@@ -10,6 +10,7 @@ import "./page.css";
 import { useParams } from "next/navigation";
 import { GameInfo } from "../../../my-cart/page";
 import Header, { AdminLinks } from "@/app/components/Header";
+
 const GamePage = () => {
   const [game, setGame] = useState<Game>();
   const [isLoading, setIsLoading] = useState(true);
@@ -50,7 +51,7 @@ const GamePage = () => {
                 <GameCard
                   game={game}
                   liClassName="max-w-100 w-fit border border-white"
-                  platform={platform}
+                  platform={platform as Game["platform"]}
                 />
               </div>
             </div>
@@ -58,37 +59,11 @@ const GamePage = () => {
           <div className=" p-8 flex-col max-h-20 min-w-80 text-center flex">
             {game && (
               <GameInfo
-                className="h-fit"
+                className="h-fit max-w-100"
                 game={game}
                 platform={platform as string}
               />
             )}
-          </div>
-        </section>
-        <section className="my-5 max-sm:mt-120 p-4">
-          <div>
-            <h2 className="text-4xl my-4 font-bold">
-              About Snow Games: Your Unified Gateway to the Gaming Universe
-            </h2>
-            <h3 className="text-2xl my-4 ">Welcome to a New Era of Gaming</h3>
-            <p className="max-w-200 text-pretty text-gray-300">
-              In a world where digital landscapes are more vast and captivating
-              than ever, gamers find themselves navigating a fragmented
-              universe. Separate launchers, multiple accounts, divergent friends
-              lists, and scattered libraries—the modern gaming experience, while
-              rich in content, has become unnecessarily complicated. Snow Games
-              was born from a simple yet revolutionary vision: to unify the
-              gaming cosmos under one seamless, intuitive, and powerful
-              platform. We are more than just another digital storefront. Snow
-              Games is a holistic gaming ecosystem designed for the player who
-              lives across worlds—from the epic narratives on PlayStation, the
-              competitive arenas on Xbox, the innovative adventures on Nintendo,
-              to the boundless modding communities and indie gems on Steam. We
-              believe your passion shouldn{`'`}t be limited by platform walls or
-              launcher logistics. Your adventure should be seamless. Your
-              community should be united. Your collection should be whole. This
-              is the future we are building, one game at a time.
-            </p>
           </div>
         </section>
       </main>
