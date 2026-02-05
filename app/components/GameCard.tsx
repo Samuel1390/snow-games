@@ -40,8 +40,10 @@ const GameCard = ({
         <div className="game-card-info">
           <h2 className="text-xl">{name}</h2>
           <div className="flex gap-2">
-            <span className="font-bold">{platform.toUpperCase()}</span>|
-            <h3>{type}</h3>
+            <span className="font-bold">
+              {typeof platform === "string" ? platform.toUpperCase() : ""}
+            </span>
+            |<h3>{type}</h3>
           </div>
           <h2 className="font-bold text-emerald-400 text-2xl">{price}</h2>
         </div>
