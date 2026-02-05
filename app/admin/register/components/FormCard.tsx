@@ -21,7 +21,6 @@ const FormCard = () => {
 
       <Form />
 
-      {/* Login Link */}
       <div className="mt-8 pt-6 border-t border-neutral-200 text-center">
         <p className="text-neutral-600">
           Already have an account?{" "}

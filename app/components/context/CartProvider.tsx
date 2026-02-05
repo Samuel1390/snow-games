@@ -1,33 +1,36 @@
 "use client";
-import { useContext, useEffect, useReducer } from "react";
+import { ReactNode, useContext, useReducer } from "react";
 import cartContext from "./cartContext";
 import FilterContext from "./filterContext";
 import reducer from "../hooks/useCartReducer";
-import React from "react";
-
-const CartProvider = ({ children }) => {
+import { CartItem } from "../hooks/types";
+interface Props {
+  children: ReactNode;
+}
+const CartProvider = ({ children }: Props) => {
   const addToCartEvent = new Event("add to cart");
   const removeFromCartEvent = new Event("remove from cart");
+
   const [cart, dispatch] = useReducer(reducer, []);
   const { platform } = useContext(FilterContext);
-  const isOnCart = (gameId, cart) => {
+  const isOnCart = (gameId: string, cart: CartItem[]) => {
     return cart.findIndex((game) => game.uuid === gameId);
   };
-  const addToCart = (game) => {
+  const addToCart = (game: CartItem) => {
     dispatch({ game: game, type: "ADD", cart: cart, platform: platform });
     window.dispatchEvent(addToCartEvent);
   };
-  const removeFromCart = (game) => {
+  const removeFromCart = (game: CartItem) => {
     dispatch({ game: game, type: "REMOVE", cart: cart, platform: platform });
     window.dispatchEvent(removeFromCartEvent);
   };
 
-  const deleteToCart = (game) => {
+  const deleteToCart = (game: CartItem) => {
     dispatch({ game: game, type: "DELETE", cart: cart, platform: platform });
   };
   return (
     <cartContext.Provider
-      value={{ cart, addToCart, removeFromCart, deleteToCart, isOnCart }}
+      value={{ addToCart, removeFromCart, deleteToCart, isOnCart, cart }}
     >
       {children}
     </cartContext.Provider>

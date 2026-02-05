@@ -1,44 +1,45 @@
 "use client";
 
 // general Customhook
-import React from "react";
 import { useState } from "react";
 import { useParams } from "next/navigation";
+import { Game, State } from "./types";
+
 const useStates = () => {
   const params = useParams();
-  const [states, setStates] = useState({
+  const [states, setStates] = useState<State>({
     games: [],
     isLoading: true,
     platform: "ps4",
-    letter: params.letter ?? "a",
+    letter: (params.letter as string) ?? "a",
     pageRange: {
       from: 0,
       to: 50,
     },
   });
 
-  const setGames = (gameList) => {
-    setStates((prevState) => {
+  const setGames = (gameList: Game[]) => {
+    setStates((prevState: State) => {
       return { ...prevState, games: gameList };
     });
   };
-  const setIsLoading = (value) => {
-    setStates((prevState) => {
+  const setIsLoading = (value: boolean) => {
+    setStates((prevState: State) => {
       return { ...prevState, isLoading: value };
     });
   };
-  const setPageRange = (newState) => {
-    setStates((prevState) => {
+  const setPageRange = (newState: { from: number; to: number }) => {
+    setStates((prevState: State) => {
       return { ...prevState, pageRange: newState };
     });
   };
-  const setPlatform = (newPlatform) => {
-    setStates((prevState) => {
+  const setPlatform = (newPlatform: State["platform"]) => {
+    setStates((prevState: State) => {
       return { ...prevState, platform: newPlatform };
     });
   };
-  const setLetter = (newLetter) => {
-    setStates((prevState) => {
+  const setLetter = (newLetter: string) => {
+    setStates((prevState: State) => {
       return { ...prevState, letter: newLetter };
     });
   };

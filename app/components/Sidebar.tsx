@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { ReactNode, useState } from "react";
 import "@/app/components/styles/layout.css";
 import { useContext } from "react";
 import { XboxIcon, PsnIcon, NintendoIcon, SteamIcon } from "./Icons";
@@ -7,7 +7,7 @@ import FilterContext from "./context/filterContext";
 import Link from "next/link";
 import { FilterControls } from "./Controls";
 import { AdminLinks } from "./Header";
-export const options = [
+export const options: Options[] = [
   { platform: "ps4", icon: <PsnIcon /> },
   { platform: "ps5", icon: <PsnIcon /> },
   { platform: "xbox", icon: <XboxIcon /> },
@@ -15,7 +15,16 @@ export const options = [
   { platform: "steam", icon: <SteamIcon /> },
 ];
 
-const Sidebar = ({ open, linkOptions }) => {
+interface Props {
+  open: true | false;
+  linkOptions: true | false;
+}
+interface Options {
+  platform: string;
+  icon?: ReactNode;
+}
+
+const Sidebar = ({ open, linkOptions }: Props) => {
   return (
     <aside className={`sidebar ${open ? "open" : ""}`}>
       <nav className="w-full">
@@ -24,11 +33,11 @@ const Sidebar = ({ open, linkOptions }) => {
           Platforms
         </h2>
         <ul className="sidebar-list">
-          {options.map((op, index) => {
+          {options.map((op: Options, index: number) => {
             return linkOptions ? (
               <BtnOptionBody key={index} option={op} />
             ) : (
-              <LinkOptionBody key={index} option={op} />
+              <LinkOptionBody key={"link" + index} option={op} />
             );
           })}
         </ul>
@@ -41,10 +50,16 @@ const Sidebar = ({ open, linkOptions }) => {
     </aside>
   );
 };
-export function LinkOptionBody({ option }) {
+type OptionBodyProps = {
+  option: {
+    platform: string;
+    icon?: React.ReactNode;
+  };
+};
+export function LinkOptionBody({ option }: OptionBodyProps) {
   const { platform, setPlatform, letter, setIsLoading } =
     useContext(FilterContext);
-  const handleOptiopActive = (optionPlatform) => {
+  const handleOptiopActive = (optionPlatform: string) => {
     if (optionPlatform !== platform) {
       setIsLoading(true);
       setPlatform(optionPlatform);
@@ -62,9 +77,9 @@ export function LinkOptionBody({ option }) {
     </li>
   );
 }
-export function BtnOptionBody({ option }) {
+export function BtnOptionBody({ option }: OptionBodyProps) {
   const { platform, setPlatform, setIsLoading } = useContext(FilterContext);
-  const handleOptiopActive = (optionPlatform) => {
+  const handleOptiopActive = (optionPlatform: string) => {
     if (optionPlatform !== platform) {
       setIsLoading(true);
       setPlatform(optionPlatform);

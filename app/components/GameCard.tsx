@@ -4,8 +4,22 @@ import cartContext from "./context/cartContext";
 import Image from "next/image";
 import Link from "next/link";
 import "./styles/layout.css";
+import { type Game } from "./hooks/types";
 import { options } from "./Sidebar";
-const GameCard = ({ game, className = "", liClassName = "", platform }) => {
+
+interface Props {
+  game: Game;
+  platform: Game["platform"];
+  className?: string;
+  liClassName?: string;
+}
+
+const GameCard = ({
+  game,
+  className = "",
+  liClassName = "",
+  platform,
+}: Props) => {
   const { name, type, price, image, uuid, rating } = game;
   const [optionObj] = options.filter((op) => op.platform === platform);
   return (
@@ -36,16 +50,22 @@ const GameCard = ({ game, className = "", liClassName = "", platform }) => {
     </li>
   );
 };
-const AddToCartBtn = ({ game, className }) => {
+const AddToCartBtn = ({
+  game,
+  className,
+}: {
+  game: Game;
+  className: string;
+}) => {
   const { addToCart, isOnCart, removeFromCart, cart } = useContext(cartContext);
   const gameOnCart = isOnCart(game.uuid, cart) === -1 ? false : true;
   const [onCart, setOnCart] = useState(gameOnCart);
-  const handleAddToCart = (e) => {
+  const handleAddToCart = (e: React.MouseEvent) => {
     e.stopPropagation();
     addToCart(game);
     setOnCart(!onCart);
   };
-  const handleRemoveFromCart = (e) => {
+  const handleRemoveFromCart = (e: React.MouseEvent) => {
     e.stopPropagation();
     removeFromCart(game);
     setOnCart(!onCart);

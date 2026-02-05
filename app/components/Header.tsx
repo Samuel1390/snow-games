@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { Bars3Icon } from "@heroicons/react/16/solid";
 import {
-  HeartIcon,
   ShoppingCartIcon,
   UserIcon,
   UserPlusIcon,
@@ -17,7 +16,7 @@ import Link from "next/link";
 import { useContext } from "react";
 import FilterContext from "./context/filterContext";
 
-const Header = ({ displayControls = true, linkOptions }) => {
+const Header = ({ displayControls = true, linkOptions = false }) => {
   const [cartAnimation, setCartAnimation] = useState("");
   useEffect(() => {
     const handleAddToCartEvent = () => setCartAnimation("add-to-cart-event");
@@ -42,7 +41,7 @@ const Header = ({ displayControls = true, linkOptions }) => {
       <header className="header shadow-md shadow-neutral-900/50">
         <div className="header-container flex items-center w-full justify-between max-w-250 m-auto">
           <div className="flex items-center">
-            <button htmlFor="open-menu-btn p-2">
+            <button className="open-menu-btn p-2">
               <Bars3Icon onClick={handleOpenNavbar} className="icon" />
             </button>
             <h2 className="text-3xl font-bold mx-2">SG</h2>
@@ -56,7 +55,7 @@ const Header = ({ displayControls = true, linkOptions }) => {
             >
               <ShoppingCartIcon className={`icon`} />
             </Link>
-            <AdminLinks className="hidden gap-4 xsm:flex" />
+            <AdminLinks className="max-sm:hidden gap-4 xsm:flex" />
           </div>
         </div>
       </header>
@@ -88,7 +87,7 @@ export function AdminLinks({ className = "" }) {
   );
 }
 
-const LetterControl = ({ display }) => {
+const LetterControl = ({ display }: { display: boolean }) => {
   const { letter, setLetter } = useContext(FilterContext);
   const alphabet = [
     "a",
@@ -118,8 +117,10 @@ const LetterControl = ({ display }) => {
     "y",
     "z",
   ];
-  const handleSelect = (e) => {
-    setLetter(e.target.value);
+  const handleSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    if (setLetter) {
+      setLetter(e.target.value);
+    }
   };
   return (
     <>

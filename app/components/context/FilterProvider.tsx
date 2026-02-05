@@ -1,11 +1,11 @@
 "use client";
 import getGames from "../hooks/useFetchGames";
 import FilterContext from "./filterContext";
-import { useEffect } from "react";
+import { ReactNode, useEffect } from "react";
 import useFilters from "../hooks/useFilters";
 import useStates from "../hooks/useStates";
 
-function FilterProvider({ children }) {
+function FilterProvider({ children }: { children: ReactNode }) {
   const {
     setGames,
     setIsLoading,
@@ -37,13 +37,13 @@ function FilterProvider({ children }) {
         games,
         filteredGames,
         setGames,
-        setFilter,
         filter,
         pageRange,
         setPageRange,
         platform,
         setPlatform,
         isLoading,
+        setFilter,
         setIsLoading,
         letter,
         setLetter,

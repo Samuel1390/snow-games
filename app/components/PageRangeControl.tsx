@@ -7,7 +7,7 @@ const PageRangeControl = () => {
   const { setPageRange, pageRange } = useContext(FilterContext);
   const [currentPage, setCurrentPage] = useState(1);
 
-  const handleRange = (number) => {
+  const handleRange = (number: number) => {
     setCurrentPage((prev) => (number > 0 ? prev + 1 : prev - 1));
     const currentFrom = pageRange.from + number;
     const currenTo = pageRange.to + number;

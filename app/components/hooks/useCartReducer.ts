@@ -1,8 +1,9 @@
-const isOnCart = (gameId, cart) => {
+import { CartItem, Game, Action } from "./types";
+const isOnCart = (gameId: string, cart: CartItem[]) => {
   return cart.findIndex((game) => game.uuid === gameId);
 };
 
-const reducer = (state, action) => {
+const reducer = (state: CartItem[], action: Action): CartItem[] => {
   const { game, type, cart, platform } = action;
   const onCart = isOnCart(game.uuid, cart);
   switch (type) {
@@ -17,6 +18,9 @@ const reducer = (state, action) => {
       return newCart;
     }
     case "REMOVE": {
+      if (!game.quantity) {
+        throw new Error("Game quantity is undefined");
+      }
       if (onCart >= 0 && game.quantity > 1) {
         const newCart = structuredClone(cart);
         newCart[onCart].quantity -= 1;

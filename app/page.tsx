@@ -4,6 +4,7 @@ import GamesGrid from "./components/GamesGrid";
 import FilterContext from "./components/context/filterContext";
 import { useContext } from "react";
 import PageRangeControl from "./components/PageRangeControl";
+
 function Home() {
   const props = useContext(FilterContext);
   return (

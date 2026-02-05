@@ -1,10 +1,10 @@
 "use client";
 
+import { FormData } from "../types";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
-
+import { Event } from "../types";
 function useValidation() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     username: "",
     email: "",
     password: "",
@@ -29,15 +29,28 @@ function useValidation() {
     setFormData,
   };
 }
-export const handleChange = (e, setFormData, setError) => {
-  const { name, value, type, checked } = e.target;
-  setFormData((prev) => ({
+type SetState = {
+  setFormData: (callback?: (prev: FormData) => void) => void;
+  setError: (error: string) => void;
+  setIsloading: (state: boolean) => void;
+};
+export const handleChange = (
+  changeEvent: Event["changeEvent"],
+  setFormData: SetState["setFormData"],
+  setError: SetState["setError"],
+) => {
+  const { name, value, type, checked } = changeEvent.target;
+  setFormData((prev: FormData) => ({
     ...prev,
     [name]: type === "checkbox" ? checked : value,
   }));
   setError("");
 };
-export const handleSubmit = async (setError, setIsLoading, formData) => {
+export const handleSubmit = async (
+  setError: SetState["setError"],
+  setIsLoading: SetState["setIsloading"],
+  formData: FormData,
+) => {
   setError("");
 
   const validationError = validateForm(formData);
@@ -49,23 +62,21 @@ export const handleSubmit = async (setError, setIsLoading, formData) => {
   setIsLoading(true);
 
   try {
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    await new Promise((resolve) => setTimeout(resolve, 500));
 
     console.log("Registration attempt with:", {
       username: formData.username,
       email: formData.email,
     });
-
-    // Registration successful - redirect to login
-    router.push("/admin/login?registered=true");
-  } catch (err) {
-    setError(err.message || "Registration failed. Please try again.");
+  } catch (err: unknown) {
+    if (err instanceof Error) {
+      setError(err.message || "Registration failed. Please try again.");
+    }
   } finally {
     setIsLoading(false);
   }
 };
-export const validateForm = (formData) => {
+export const validateForm = (formData: FormData) => {
   if (
     !formData.username ||
     !formData.email ||

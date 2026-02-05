@@ -1,5 +1,3 @@
-import { TRACE_OUTPUT_VERSION } from "next/dist/shared/lib/constants";
-
 export function XboxIcon({ className = "icon" }) {
   return (
     <svg

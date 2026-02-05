@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import { Game } from "@/app/components/hooks/types";
 
 import getGames from "@/app/components/hooks/useFetchGames";
 import GameCard from "@/app/components/GameCard";
@@ -10,7 +11,7 @@ import { useParams } from "next/navigation";
 import { GameInfo } from "../../../my-cart/page";
 import Header, { AdminLinks } from "@/app/components/Header";
 const GamePage = () => {
-  const [game, setGame] = useState(null);
+  const [game, setGame] = useState<Game>();
   const [isLoading, setIsLoading] = useState(true);
   const params = useParams();
 
@@ -18,7 +19,7 @@ const GamePage = () => {
   useEffect(() => {
     const fetchGames = async () => {
       const games = await getGames(platform, letter);
-      const specifycGame = games.filter((game) => game.uuid === id);
+      const specifycGame = games.filter((game: Game) => game.uuid === id);
       setGame(specifycGame[0]);
       setIsLoading(false);
     };
@@ -55,11 +56,13 @@ const GamePage = () => {
             </div>
           )}
           <div className=" p-8 flex-col max-h-20 min-w-80 text-center flex">
-            <GameInfo
-              className="h-fit"
-              game={game}
-              platform={platform.toUpperCase()}
-            />
+            {game && (
+              <GameInfo
+                className="h-fit"
+                game={game}
+                platform={platform as string}
+              />
+            )}
           </div>
         </section>
         <section className="my-5 max-sm:mt-120 p-4">
@@ -81,7 +84,7 @@ const GamePage = () => {
               lives across worlds—from the epic narratives on PlayStation, the
               competitive arenas on Xbox, the innovative adventures on Nintendo,
               to the boundless modding communities and indie gems on Steam. We
-              believe your passion shouldn't be limited by platform walls or
+              believe your passion shouldn{`'`}t be limited by platform walls or
               launcher logistics. Your adventure should be seamless. Your
               community should be united. Your collection should be whole. This
               is the future we are building, one game at a time.

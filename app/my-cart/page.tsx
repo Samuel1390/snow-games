@@ -1,5 +1,6 @@
 "use client";
 import styles from "./styles.module.css";
+import { CartItem, Game } from "@/app/components/hooks/types";
 import React from "react";
 import CartContext from "../components/context/cartContext";
 import { useContext } from "react";
@@ -47,7 +48,15 @@ const Page = () => {
     </>
   );
 };
-export function GameInfo({ game, platform = "", className = "" }) {
+export function GameInfo({
+  game,
+  platform = "",
+  className = "",
+}: {
+  game: CartItem | Game;
+  platform?: string;
+  className?: string;
+}) {
   const { cart, addToCart, removeFromCart, deleteToCart } =
     useContext(CartContext);
   const gameOnCartIndex = cart.findIndex(

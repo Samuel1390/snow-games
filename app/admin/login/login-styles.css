@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.container {
+  @apply min-h-screen bg-linear-to-br from-indigo-900 to-sky-500 flex flex-col justify-center py-12 sm:px-6 lg:px-8;
+}
+.logo {
+  @apply bg-linear-to-r from-sky-700 to-sky-500 shadow-neutral-950/60 shadow-xl text-white p-3 rounded-xl;
+}
+.form-container {
+  @apply bg-white py-8 px-4 shadow-lg shadow-sky-100/50 sm:rounded-lg sm:px-10 border border-neutral-200;
+}
+.icons-container {
+  @apply flex text-neutral-50/30 scale-150  max-w-100 m-auto mt-7 w-full justify-evenly;
+}
+.snow-games {
+  @apply mt-6 text-center text-3xl font-bold tracking-tight text-neutral-50;
+}

@@ -8,3 +8,12 @@
 .back-to-home-link {
   @apply flex items-center gap-2 text-sky-50 hover:text-sky-300 transition-colors;
 }
+.submit-btn {
+  @apply w-full flex justify-center items-center py-3.5 px-4 border border-transparent rounded-lg text-base font-medium text-white bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-700 hover:to-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 transition-all duration-200 shadow-lg hover:shadow-xl;
+}
+.submit-btn.loading {
+  @apply opacity-90 cursor-not-allowed;
+}
+.text-input {
+  @apply block text-neutral-900 w-full pl-10 pr-10 py-3 border border-neutral-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent transition-all duration-200 placeholder-neutral-400;
+}

@@ -1,15 +1,14 @@
-import { useContext } from "react";
+import { ChangeEvent, useContext } from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/16/solid";
 import FilterContext from "./context/filterContext";
 import { FunnelIcon } from "@heroicons/react/24/outline";
-import { useState } from "react";
 import { Slider } from "@/components/ui/slider";
 import "./styles/slider.css";
 function Searchbar({ className = "", display = true }) {
   const { filter, setFilter } = useContext(FilterContext);
-  const handleTextInput = (e) => {
+  const handleTextInput = (e: ChangeEvent<HTMLInputElement>) => {
     const newText = e.target.value.toLowerCase();
-    setFilter((prev) => ({ ...prev, text: newText }));
+    setFilter({ ...filter, text: newText });
   };
   return (
     <div
@@ -33,11 +32,17 @@ function Searchbar({ className = "", display = true }) {
     </div>
   );
 }
-export function MobileSearchbar({ displayControls }) {
+export function MobileSearchbar({
+  displayControls,
+}: {
+  displayControls: boolean;
+}) {
   const { filter, setFilter } = useContext(FilterContext);
-  const handleTextInput = (e) => {
-    const newText = e.target.value.toLowerCase();
-    setFilter((prev) => ({ ...prev, text: newText }));
+  const handleTextInput = (e: ChangeEvent<HTMLInputElement>) => {
+    if (e.target) {
+      const newText = e.target.value.toLowerCase();
+      setFilter({ ...filter, text: newText });
+    }
   };
   return (
     <div
@@ -57,8 +62,8 @@ export function MobileSearchbar({ displayControls }) {
 export function FilterControls() {
   const { filter, setFilter } = useContext(FilterContext);
   const { minPrice, maxPrice } = filter;
-  function handleInputRange(e) {
-    setFilter({ ...filter, minPrice: e[0], maxPrice: e[1] });
+  function handleInputRange(value: number[]) {
+    setFilter({ ...filter, minPrice: value[0], maxPrice: value[1] });
   }
   const min = 0;
   const max = 200;
@@ -79,7 +84,7 @@ export function FilterControls() {
           <Slider
             defaultValue={[initialMinValue, initialMaxValue]}
             value={[minPrice, maxPrice]}
-            onValueChange={(e) => handleInputRange(e)}
+            onValueChange={(value) => handleInputRange(value)}
             max={max}
             min={min}
             step={1}
