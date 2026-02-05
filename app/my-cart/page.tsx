@@ -80,8 +80,13 @@ export function GameInfo({
               <h3 className="text-2xl text-sky-300">
                 Platform:{" "}
                 {gameOnCartIndex >= 0
-                  ? cart[gameOnCartIndex].platform.toUpperCase()
-                  : platform.toUpperCase()}
+                  ? cart[gameOnCartIndex]?.platform &&
+                    typeof cart[gameOnCartIndex].platform === "string"
+                    ? cart[gameOnCartIndex].platform.toUpperCase()
+                    : ""
+                  : platform && typeof platform === "string"
+                    ? platform.toUpperCase()
+                    : ""}
               </h3>
             </div>
           </div>
