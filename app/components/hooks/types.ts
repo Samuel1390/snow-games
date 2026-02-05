@@ -24,9 +24,9 @@ export interface State {
 export interface SetStates {
   setGames: (games: Game[]) => void;
   setIsLoading: (value: boolean) => void;
-  setLetter: (newLetter: string | ParamValue) => void;
   setPageRange: (newState: { from: number; to: number }) => void;
-  setPlatform: (newPlatform: State["platform"] | ParamValue) => void;
+  setPlatform: (newPlatform: State["platform"]) => void;
+  setLetter: (newLetter: string) => void;
 }
 export interface Filters extends State, SetStates {
   filteredGames: Game[];
