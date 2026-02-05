@@ -5,12 +5,13 @@ import { useEffect } from "react";
 import React, { useContext } from "react";
 import GamesGrid from "@/app/components/GamesGrid";
 import FilterContext from "@/app/components/context/filterContext";
+import { SetStates } from "@/app/components/hooks/types";
 const Page = () => {
   const { platform, letter } = useParams();
   const props = useContext(FilterContext);
   useEffect(() => {
     props.setPlatform(platform);
-    props.setLetter(letter);
+    props.setLetter(letter as string);
   }, []);
   return (
     <main>

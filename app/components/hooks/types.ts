@@ -13,7 +13,7 @@ export interface Game {
 }
 export interface State {
   games: Game[];
-  platform: "ps4" | "ps5" | "xbox" | "nintendo" | "steam";
+  platform: "ps4" | "ps5" | "xbox" | "nintendo" | "steam" | ParamValue;
   isLoading: boolean;
   letter: string;
   pageRange: {
