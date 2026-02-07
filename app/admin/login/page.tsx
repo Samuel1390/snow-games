@@ -6,12 +6,20 @@ import {
   FooterInfo,
   Options,
 } from "./components/Buttons.jsx";
-import Form from "./components/Form.jsx";
+import Form from "./components/Form";
+import { ArrowLeftIcon } from "lucide-react";
+import Link from "next/link.js";
 import "./login-styles.css";
 
 export default function LoginPage() {
   return (
     <div className="container">
+      <div className="absolute top-6 left-6">
+        <Link href="/" className="back-to-home-link">
+          <ArrowLeftIcon className="h-5 w-5" />
+          Back to Home
+        </Link>
+      </div>
       <div className="relative sm:mx-auto sm:w-full sm:max-w-md">
         <div className="flex justify-center">
           <div className="logo">

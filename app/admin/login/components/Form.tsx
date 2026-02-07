@@ -8,6 +8,9 @@ import {
   EyeIcon,
   EyeSlashIcon,
 } from "@heroicons/react/24/outline";
+import { Event, LoginFormData } from "../../register/components/types";
+import TextField from "../../register/components/TextField";
+import "@/app/admin/register/page.css";
 function Form() {
   const [formData, setFormData] = useState({
     email: "",
@@ -18,7 +21,7 @@ function Form() {
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
 
-  const handleChange = (e) => {
+  const handleChange = (e: Event["changeEvent"]) => {
     const { name, value, type, checked } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -26,7 +29,7 @@ function Form() {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: Event["submitEvent"]) => {
     e.preventDefault();
     setIsLoading(true);
     try {
@@ -42,66 +45,12 @@ function Form() {
   };
   return (
     <form className="space-y-6" onSubmit={handleSubmit}>
-      <div>
-        <label
-          htmlFor="email"
-          className="block text-sm font-medium text-neutral-700"
-        >
-          Email address
-        </label>
-        <div className="mt-1 relative">
-          <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-            <EnvelopeIcon className="h-5 w-5 text-neutral-400" />
-          </div>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            autoComplete="email"
-            required
-            value={formData.email}
-            onChange={handleChange}
-            className="block w-full pl-10 pr-3 py-2.5 border border-neutral-300 rounded-lg bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent transition-all duration-200"
-            placeholder="you@example.com"
-          />
-        </div>
-      </div>
-
-      <div>
-        <label
-          htmlFor="password"
-          className="block text-sm font-medium text-neutral-700"
-        >
-          Password
-        </label>
-        <div className="mt-1 relative">
-          <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-            <LockClosedIcon className="h-5 w-5 text-neutral-400" />
-          </div>
-          <input
-            id="password"
-            name="password"
-            type={showPassword ? "text" : "password"}
-            autoComplete="current-password"
-            required
-            value={formData.password}
-            onChange={handleChange}
-            className="text-neutral-900 block w-full pl-10 pr-10 py-2.5 border border-neutral-300 rounded-lg bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent transition-all duration-200"
-            placeholder="••••••••"
-          />
-          <button
-            type="button"
-            onClick={() => setShowPassword(!showPassword)}
-            className="absolute inset-y-0 right-0 pr-3 flex items-center"
-          >
-            {showPassword ? (
-              <EyeSlashIcon className="h-5 w-5 text-neutral-400 hover:text-neutral-600" />
-            ) : (
-              <EyeIcon className="h-5 w-5 text-neutral-400 hover:text-neutral-600" />
-            )}
-          </button>
-        </div>
-      </div>
+      <TextField formData={formData} name="email" handleChange={handleChange} />
+      <TextField
+        formData={formData}
+        name="password"
+        handleChange={handleChange}
+      />
       <Help
         isLoading={isLoading}
         formData={formData}
@@ -110,7 +59,15 @@ function Form() {
     </form>
   );
 }
-function Help({ formData, handleChange, isLoading }) {
+function Help({
+  formData,
+  handleChange,
+  isLoading,
+}: {
+  formData: LoginFormData;
+  handleChange: (e: Event["changeEvent"]) => void;
+  isLoading: boolean;
+}) {
   return (
     <>
       <div className="flex items-center justify-between">

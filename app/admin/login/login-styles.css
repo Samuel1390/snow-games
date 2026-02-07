@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .container {
-  @apply min-h-screen bg-linear-to-br from-indigo-900 to-sky-500 flex flex-col justify-center py-12 sm:px-6 lg:px-8;
+  @apply min-w-screen min-h-screen bg-linear-to-br from-indigo-900 to-sky-500 flex flex-col justify-center py-12 sm:px-6 lg:px-8;
 }
 .logo {
   @apply bg-linear-to-r from-sky-700 to-sky-500 shadow-neutral-950/60 shadow-xl text-white p-3 rounded-xl;

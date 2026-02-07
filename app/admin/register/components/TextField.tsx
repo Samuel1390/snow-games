@@ -1,6 +1,5 @@
-import React from "react";
-import { FormData, Event } from "./types";
-import useValidation from "./hooks/useValidation";
+import React, { Dispatch, SetStateAction, useState } from "react";
+import { LoginFormData, RegisterFormData, Event, Target } from "./types";
 import {
   UserIcon,
   LockClosedIcon,
@@ -10,53 +9,77 @@ import {
 } from "@heroicons/react/24/outline";
 
 interface Props {
-  formData: FormData;
-  name: "username" | "email" | "password" | "confirmPassword";
+  formData: LoginFormData | RegisterFormData;
+  name: Target["name"];
   handleChange: (changeEvent: Event["changeEvent"]) => void;
 }
 
+const ICON_CLASSNAME: string = "h-5 w-5 text-neutral-400";
+const ICONS = {
+  password: <LockClosedIcon className={ICON_CLASSNAME} />,
+  username: <UserIcon className={ICON_CLASSNAME} />,
+  email: <EnvelopeIcon className={ICON_CLASSNAME} />,
+};
+
 const TextField = ({ formData, name, handleChange }: Props) => {
-  const { showPassword } = useValidation();
-  const iconClassName: string = "h-5 w-5 text-neutral-400";
-  const lockClosedIcon = <LockClosedIcon className={iconClassName} />;
-  const userIcon = <UserIcon className={iconClassName} />;
-  const mailIcon = <EnvelopeIcon className={iconClassName} />;
+  const [showPassword, setShowPassword] = useState<boolean>(false);
+
+  const getValue = (): string => {
+    if (name in formData) {
+      const value = formData[name as keyof typeof formData];
+      if (typeof value === "boolean") return String(value);
+      return value as string;
+    }
+    return "";
+  };
   return (
     <>
       <label
         htmlFor="password"
         className="block text-sm font-medium text-neutral-700 mb-2 first-letter:uppercase"
       >
-        {name === "confirmPassword" ? name.split("P").join(" p") : name}
+        {name === "confirmPassword" ? "Confirm password" : name}
       </label>
       <div className="relative">
         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-          {name === "password" || "confirm password"
-            ? lockClosedIcon
+          {name === "password" || name === "confirmPassword"
+            ? ICONS.password
             : name === "email"
-              ? mailIcon
-              : userIcon}
+              ? ICONS.email
+              : ICONS.username}
         </div>
         <input
           id={name}
           name={name}
-          type={showPassword ? "text" : "password"}
-          autoComplete="new-password"
+          type={
+            showPassword || !name.toLowerCase().includes("password")
+              ? "text"
+              : "password"
+          }
+          autoComplete={name}
           required
-          value={formData[name]}
+          value={getValue()}
           onChange={handleChange}
           className="text-input"
-          placeholder={
-            name === "confirmPassword" ? name.split("P").join(" p") : name
-          }
+          placeholder={name === "confirmPassword" ? "Confirm password" : name}
         />
-        {name === "password" && <ToogleShowPasswordBtn />}
+        {name === "password" && (
+          <ToogleShowPasswordBtn
+            showPassword={showPassword}
+            setShowPassword={setShowPassword}
+          />
+        )}
       </div>
     </>
   );
 };
-const ToogleShowPasswordBtn = () => {
-  const { setShowPassword, showPassword } = useValidation();
+const ToogleShowPasswordBtn = ({
+  showPassword,
+  setShowPassword,
+}: {
+  showPassword: boolean;
+  setShowPassword: Dispatch<SetStateAction<boolean>>;
+}) => {
   return (
     <button
       type="button"

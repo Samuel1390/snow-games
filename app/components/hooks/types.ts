@@ -47,11 +47,17 @@ export interface CartItem extends Game {
   platform: State["platform"];
   uuid: string;
 }
+export const enum CART_METHODS {
+  ADD,
+  REMOVE,
+  DELETE,
+  CLEAR,
+}
 export interface Action {
-  game: Game;
-  type: string;
+  game: CartItem;
+  type: CART_METHODS;
   cart: CartItem[];
-  platform: State["platform"];
+  platform: Game["platform"];
 }
 export interface ReturnValue {
   cart: CartItem[];
@@ -59,4 +65,5 @@ export interface ReturnValue {
   removeFromCart(game: CartItem | Game): void;
   deleteToCart(game: CartItem | Game): void;
   isOnCart(gameId: string, cart: CartItem[]): number;
+  clearCart(): void;
 }

@@ -1,4 +1,4 @@
-import { CartItem, Game, Action } from "./types";
+import { CartItem, Game, CART_METHODS, Action } from "./types";
 const isOnCart = (gameId: string, cart: CartItem[]) => {
   return cart.findIndex((game) => game.uuid === gameId);
 };
@@ -7,7 +7,7 @@ const reducer = (state: CartItem[], action: Action): CartItem[] => {
   const { game, type, cart, platform } = action;
   const onCart = isOnCart(game.uuid, cart);
   switch (type) {
-    case "ADD": {
+    case CART_METHODS.ADD: {
       if (onCart === -1) {
         const newCart = structuredClone(cart);
         newCart.push({ ...game, quantity: 1, platform: platform });
@@ -17,7 +17,7 @@ const reducer = (state: CartItem[], action: Action): CartItem[] => {
       newCart[onCart].quantity += 1;
       return newCart;
     }
-    case "REMOVE": {
+    case CART_METHODS.REMOVE: {
       if (!game.quantity) {
         throw new Error("Game quantity is undefined");
       }
@@ -31,7 +31,7 @@ const reducer = (state: CartItem[], action: Action): CartItem[] => {
       );
       return filteredGames;
     }
-    case "DELETE": {
+    case CART_METHODS.DELETE: {
       if (onCart >= 0) {
         const filteredGames = cart.filter(
           (gameOnCart) => gameOnCart.uuid !== game.uuid,
@@ -39,7 +39,11 @@ const reducer = (state: CartItem[], action: Action): CartItem[] => {
         return filteredGames;
       }
     }
+    case CART_METHODS.CLEAR: {
+      return [];
+    }
+    default:
+      return state;
   }
-  return state;
 };
 export default reducer;

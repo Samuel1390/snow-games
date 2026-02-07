@@ -5,7 +5,7 @@ import TextField from "./TextField";
 import { CheckCircleIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import useValidation, { handleSubmit } from "./hooks/useValidation";
-import { Event } from "./types";
+import { Event, RegisterFormData } from "./types";
 import SubmitBtn from "./SubmitBtn";
 
 const Form = () => {
@@ -14,7 +14,7 @@ const Form = () => {
 
   const handleChange = (changeEvent: Event["changeEvent"]) => {
     const { name, value, type, checked } = changeEvent.target;
-    setFormData((prev) => ({
+    setFormData((prev: RegisterFormData) => ({
       ...prev,
       [name]: type === "checkbox" ? checked : value,
     }));
