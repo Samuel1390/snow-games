@@ -15,7 +15,7 @@ export interface State {
   games: Game[];
   platform: "ps4" | "ps5" | "xbox" | "nintendo" | "steam" | ParamValue;
   isLoading: boolean;
-  letter: string;
+  letter: LowerCaseLetter | Uppercase<LowerCaseLetter>;
   pageRange: {
     from: number;
     to: number;
@@ -67,3 +67,30 @@ export interface ReturnValue {
   isOnCart(gameId: string, cart: CartItem[]): number;
   clearCart(): void;
 }
+type LowerCaseLetter =
+  | "a"
+  | "b"
+  | "c"
+  | "d"
+  | "e"
+  | "f"
+  | "g"
+  | "h"
+  | "i"
+  | "j"
+  | "k"
+  | "l"
+  | "m"
+  | "n"
+  | "o"
+  | "p"
+  | "q"
+  | "r"
+  | "s"
+  | "t"
+  | "u"
+  | "v"
+  | "w"
+  | "x"
+  | "y"
+  | "z";

@@ -7,12 +7,12 @@ import GameCard from "@/app/components/GameCard";
 import { Spinner } from "@/components/ui/spinner";
 import "./page.css";
 
-import { useParams } from "next/navigation";
+import { notFound, useParams } from "next/navigation";
 import { GameInfo } from "../../../my-cart/page";
-import Header, { AdminLinks } from "@/app/components/Header";
+import Header from "@/app/components/Header";
 
 const GamePage = () => {
-  const [game, setGame] = useState<Game>();
+  const [game, setGame] = useState<Game | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const params = useParams();
 
@@ -26,7 +26,9 @@ const GamePage = () => {
     };
     fetchGames();
   }, [platform, letter, id]);
-
+  if (game === undefined) {
+    notFound();
+  }
   return (
     <>
       <Header displayControls={false} />

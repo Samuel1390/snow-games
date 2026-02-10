@@ -5,6 +5,8 @@ import { Spinner } from "@/components/ui/spinner";
 import { Filters, Game } from "./hooks/types";
 import { Skeleton } from "@/components/ui/skeleton";
 import { CardContent, Card } from "@/components/ui/card";
+import { LetterControl } from "./Controls";
+import PageRangeControl from "./PageRangeControl";
 
 const GamesGrid = ({ props }: { props: Filters }) => {
   const { filter, filteredGames, pageRange, platform, isLoading } = props;
@@ -33,6 +35,7 @@ const GamesGrid = ({ props }: { props: Filters }) => {
             return <SkeletonCard key={index} />;
           })}
       </div>
+      <PageRangeControl />
     </div>
   );
 };
@@ -52,9 +55,17 @@ const GamesNotFound = ({ filter }: { filter: Filters["filter"] }) => {
       <h2 className="text-neutral-300 font-bold text-3xl m-auto my-4 w-fit">
         Games not found
       </h2>
-      <p className="text-gray-400">
-        Games not found with <span>{`"${filter.text}"`}</span>{" "}
-      </p>
+      {filter.text.length !== 0 && (
+        <p className="text-gray-400">
+          Games not found with <span>{`"${filter.text}"`}</span>{" "}
+        </p>
+      )}
+      {filter.maxPrice > 0 && filter.maxPrice < 200 && (
+        <p className="text-gray-400">
+          Games not found between{" "}
+          <span>{`$${filter.minPrice} and $${filter.maxPrice}`}</span>{" "}
+        </p>
+      )}
     </div>
   );
 };

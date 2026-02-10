@@ -95,4 +95,64 @@ export function FilterControls() {
     </div>
   );
 }
+const ALPHABET = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+] as const;
+export const LetterControl = ({ display }: { display: boolean }) => {
+  const { letter, setLetter } = useContext(FilterContext);
+  const handleSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setLetter(e.target.value);
+  };
+  return (
+    <>
+      <div hidden={!display} className="flex mx-4 gap-2.5">
+        <label tabIndex={1} htmlFor="index" className=" ">
+          Index:
+        </label>
+        <select
+          className=" bg-slate-700 px-2.5 outline outline-emerald-50 focus:outline-2 focus:outline-amber-400 rounded"
+          id="index"
+          onChange={(e) => handleSelect(e)}
+        >
+          {ALPHABET.map((currentLetter) => {
+            return (
+              <option
+                className={`p-2.5 bg-teal-950 text-neutral-50 ${letter ? "bg-emerald-800" : ""}`}
+                key={currentLetter}
+                value={currentLetter}
+              >
+                {currentLetter.toUpperCase()}
+              </option>
+            );
+          })}
+        </select>
+      </div>
+    </>
+  );
+};
 export default Searchbar;

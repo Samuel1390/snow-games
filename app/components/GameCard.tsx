@@ -24,7 +24,10 @@ const GameCard = ({
   const [optionObj] = options.filter((op) => op.platform === platform);
   return (
     <li key={uuid} className={`game-card ${liClassName}`}>
-      <Link href={`/${platform}/${name[0].toLowerCase()}/${uuid}`}>
+      <Link
+        prefetch={false}
+        href={`/${platform}/${name[0].toLowerCase()}/${uuid}`}
+      >
         <div className={`${platform}Tag platformTag`}>
           {optionObj.icon} {optionObj.platform.toLocaleUpperCase()}
         </div>

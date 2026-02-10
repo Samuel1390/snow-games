@@ -46,4 +46,5 @@ const reducer = (state: CartItem[], action: Action): CartItem[] => {
       return state;
   }
 };
+
 export default reducer;
