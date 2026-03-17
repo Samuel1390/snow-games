@@ -1,14 +1,13 @@
 export interface Event {
   changeEvent: React.ChangeEvent<HTMLInputElement>;
   submitEvent: React.FormEvent<HTMLFormElement>;
-  target: Target;
 }
 export interface RegisterFormData {
   username: string;
   email: string;
   password: string;
   confirmPassword: string;
-  agreeToTerms: false;
+  agreeToTerms: boolean;
 }
 export type LoginFormData = Pick<RegisterFormData, "email" | "password"> & {
   rememberMe: boolean;
@@ -19,3 +18,4 @@ export interface Target {
   type: string;
   checked: boolean;
 }
+export type FormData = RegisterFormData & LoginFormData;

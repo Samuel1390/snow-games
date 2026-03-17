@@ -1,10 +1,9 @@
 "use client";
 
-import { FormData } from "../types";
+import { RegisterFormData, Event } from "../types";
 import { useState } from "react";
-import { Event } from "../types";
 function useValidation() {
-  const [formData, setFormData] = useState<FormData>({
+  const [formData, setFormData] = useState<RegisterFormData>({
     username: "",
     email: "",
     password: "",
@@ -30,9 +29,9 @@ function useValidation() {
   };
 }
 type SetState = {
-  setFormData: (callback?: (prev: FormData) => void) => void;
+  setFormData: React.Dispatch<React.SetStateAction<RegisterFormData>>;
   setError: (error: string) => void;
-  setIsloading: (state: boolean) => void;
+  setIsLoading: (state: boolean) => void;
 };
 export const handleChange = (
   changeEvent: Event["changeEvent"],
@@ -40,7 +39,7 @@ export const handleChange = (
   setError: SetState["setError"],
 ) => {
   const { name, value, type, checked } = changeEvent.target;
-  setFormData((prev: FormData) => ({
+  setFormData((prev) => ({
     ...prev,
     [name]: type === "checkbox" ? checked : value,
   }));
@@ -48,8 +47,8 @@ export const handleChange = (
 };
 export const handleSubmit = async (
   setError: SetState["setError"],
-  setIsLoading: SetState["setIsloading"],
-  formData: FormData,
+  setIsLoading: SetState["setIsLoading"],
+  formData: RegisterFormData,
 ) => {
   setError("");
 
@@ -76,7 +75,7 @@ export const handleSubmit = async (
     setIsLoading(false);
   }
 };
-export const validateForm = (formData: FormData) => {
+export const validateForm = (formData: RegisterFormData) => {
   if (
     !formData.username ||
     !formData.email ||

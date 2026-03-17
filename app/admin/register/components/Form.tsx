@@ -14,7 +14,7 @@ const Form = () => {
 
   const handleChange = (changeEvent: Event["changeEvent"]) => {
     const { name, value, type, checked } = changeEvent.target;
-    setFormData((prev: RegisterFormData) => ({
+    setFormData((prev) => ({
       ...prev,
       [name]: type === "checkbox" ? checked : value,
     }));

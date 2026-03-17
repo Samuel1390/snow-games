@@ -36,8 +36,8 @@ const GameCard = ({
             className="card-image object-cover"
             src={image}
             alt={`image of ${name}`}
-            width={600}
-            height={300}
+            width={300}
+            height={200}
           />
         </picture>
         <div className="game-card-info">
