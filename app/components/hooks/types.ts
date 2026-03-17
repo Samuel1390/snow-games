@@ -1,5 +1,4 @@
 import { ParamValue } from "next/dist/server/request/params";
-
 export interface Game {
   name: string;
   type: string;
@@ -26,7 +25,7 @@ export interface SetStates {
   setIsLoading: (value: boolean) => void;
   setPageRange: (newState: { from: number; to: number }) => void;
   setPlatform: (newPlatform: State["platform"]) => void;
-  setLetter: (newLetter: string) => void;
+  setLetter: (newLetter: LowerCaseLetter) => void;
 }
 export interface Filters extends State, SetStates {
   filteredGames: Game[];
@@ -67,7 +66,7 @@ export interface ReturnValue {
   isOnCart(gameId: string, cart: CartItem[]): number;
   clearCart(): void;
 }
-type LowerCaseLetter =
+export type LowerCaseLetter =
   | "a"
   | "b"
   | "c"

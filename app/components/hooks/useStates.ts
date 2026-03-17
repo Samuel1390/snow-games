@@ -1,6 +1,7 @@
 "use client";
 
 // general Customhook
+import { LowerCaseLetter } from "./types";
 import { useState } from "react";
 import { useParams } from "next/navigation";
 import { Game, State } from "./types";
@@ -11,7 +12,7 @@ const useStates = () => {
     games: [],
     isLoading: true,
     platform: "ps4",
-    letter: (params.letter as string) ?? "a",
+    letter: (params.letter as LowerCaseLetter) ?? "a",
     pageRange: {
       from: 0,
       to: 50,
@@ -38,7 +39,7 @@ const useStates = () => {
       return { ...prevState, platform: newPlatform };
     });
   };
-  const setLetter = (newLetter: string) => {
+  const setLetter = (newLetter: LowerCaseLetter) => {
     setStates((prevState: State) => {
       return { ...prevState, letter: newLetter };
     });
