@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import React, { useContext } from "react";
 import GamesGrid from "@/app/components/GamesGrid";
 import FilterContext from "@/app/components/context/filterContext";
+import { LowerCaseLetter } from "@/app/components/hooks/types";
 
 const LETTER_REGEX = /^[a-zA-Z]$/;
 const PLATFORM_REGEX = /^(ps4|ps5|xbox|nintendo|steam)$/;
@@ -19,7 +20,7 @@ const Page = () => {
       PLATFORM_REGEX.test(platform as string)
     ) {
       setPlatform(platform);
-      setLetter(letter as string);
+      setLetter(letter as LowerCaseLetter);
     } else {
       notFound();
     }
